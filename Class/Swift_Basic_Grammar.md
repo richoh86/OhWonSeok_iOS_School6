@@ -1,12 +1,17 @@
 # 기초문법
 
+~~~~
 변수 : 프로그램에서 데이터의 저장공간을 담당
 
 함수 : 프로그램이 실행되는 행동을 담당
 
+~~~~
+
 ## 변수문법
 
-*변수 선언
+**변수 선언**
+
+~~~~
 키워드 + 변수 명(Name) + 변수 타입 (Type)
 
 문법 : var vName: Any 
@@ -14,17 +19,20 @@
 
 변수명은 Lower Camel Case 로만 작성 (Objective-C ,Swift는 일단 해당되며, 다른 언어들은 다를 수 있다)
 변수타입은 첫글자가 무조건 대문자 Upper Camel Case
+~~~~
+**변수 값 할당**
 
-변수 값 할당
-
+~~~~
 변수 명(Name)  = 값(Value)
 
 문법 var vName: Any = 3
 
 Any : 모든 타입
+~~~~
 
 ## 함수
 
+~~~~
 x : 미지수, input value, 매개변수 (parameter)
 
 x+3 :  Action
@@ -43,6 +51,8 @@ Input value -> Action -> return type
 // 함수 내용
  
    } 
+
+~~~~
 
 * “->” 양쪽에 빈칸을 띄우든지, 양쪽다 없애든지 해야한다
 
