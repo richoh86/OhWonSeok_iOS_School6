@@ -1,4 +1,4 @@
-# Xcode Shorcutkey List
+# Xcode Shorcut key List
 
 ```
 Command + Shift + O : 프로젝트 내 파일 / 클래스 / 함수 검색 
@@ -65,7 +65,7 @@ Command + I : 선택된 텍스트블록의 들여쓰기 올바르게(?) 적용
 
 ```
 
-# Xcode Shorcutkey For Debug
+# Xcode Shorcut key For Debug
 
 ~~~
 F6 : 다음 라인 ( Step Over )
