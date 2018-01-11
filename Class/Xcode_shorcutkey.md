@@ -1,4 +1,5 @@
-#Xcode 단축기
+# Xcode Shorcutkey List
+
 ```
 Command + Shift + O : 프로젝트 내 파일 / 클래스 / 함수 검색 
 
@@ -64,8 +65,9 @@ Command + I : 선택된 텍스트블록의 들여쓰기 올바르게(?) 적용
 
 ```
 
-디버깅 관련
+# Xcode Shorcutkey For Debug
 
+~~~
 F6 : 다음 라인 ( Step Over )
 
 F7 : 현재 라인 내부 진입 ( Step Into )
@@ -73,3 +75,4 @@ F7 : 현재 라인 내부 진입 ( Step Into )
 F8 : 현재 함수에서 나가기 ( Step Out )
 
 Command + Shift + Y : 실행 중 멈춤 ( Pause ) & 멈춤 상태에서 재 진행
+~~~
