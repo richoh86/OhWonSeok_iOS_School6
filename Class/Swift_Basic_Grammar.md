@@ -74,4 +74,4 @@ Input value -> Action -> return type
 
 ## Example
 
-![class_variables_func] (/Img/class_variables_func.png)
+![class_variables_func](/Img/class_variables_func.png)
