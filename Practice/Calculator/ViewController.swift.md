@@ -1,5 +1,9 @@
 
-#  ViewController.swift
+# Calculator   
+
+기본적인 계산기 기능과 UI를 구현하였습니다
+
+## 소스 코드: ViewController.swift
 
 ~~~
 //  CalculatorPractice
@@ -192,4 +196,9 @@ class ViewController: UIViewController {
     
 }
 ~~~
+
+## 코드 실행 이미지
+
+![Caculator](Img/Caculator.png "계산기 UI")
+
 
