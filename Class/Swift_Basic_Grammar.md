@@ -75,3 +75,28 @@ Input value -> Action -> return type
 ## Example
 
 ![class_variables_func](/Img/class_variables_func.png)
+
+## 객체 생성 및 인스턴스 선언 방법
+
+1. 인스턴스(객체 만들기) - 초기화   
+
+~~~
+사람()
+~~~   
+
+2. 인스턴스 변수에 저장
+
+~~~
+var 원석: 사람 = 사람()
+~~~
+
+3. 인스턴스의 속성(변수), 함수 접근 및 실행 (닷 . 문법사용)
+
+~~~
+원석.이름 = "오원석"
+원석.달리기()
+~~~
+
+## Example
+
+![object](/Img/object.png)
