@@ -199,6 +199,6 @@ class ViewController: UIViewController {
 
 ## 코드 실행 이미지
 
-![Caculator](/Img/Caculator.png)
+![Calculator](/Img/Calculator.png)
 
 
