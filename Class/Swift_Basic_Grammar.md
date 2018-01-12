@@ -71,3 +71,7 @@ Input value -> Action -> return type
 * Class 이름은 Upper Camel Case로 만든다
 
 * 이유는 type으로 클래스 이름이 사용되기 때문이다 (객채셍성시)
+
+## Example
+
+![class_variables_func] (/Img/class_variables_func.png)
