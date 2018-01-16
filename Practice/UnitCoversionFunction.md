@@ -184,6 +184,9 @@ class UnitConversionFunction {
     func average(math: Int, eng: Int, sci: Int, music: Int) -> Double {
         
         return Double(math+eng+sci+music)/4
+        // Double(math+eng+sci+music/4) -> 는 math+eng+sci+music/4 자체가 Int 타입이기 때문에
+        // 정수 값을 다시 실수로 변환하는 과정이기 때문에 숫자.0 으로 밖에 표기가 되지 않는다
+        // 정상적인 평균 값을 구할 수 없다
         
     }
     
@@ -197,11 +200,13 @@ class UnitConversionFunction {
     
     }
     
-    //정수를 두개를 입력받아 두수를 합친수를 출력하는 함수 (ex: 3,4 입력시 >>> 34 /// 1,0 입력시 >>> 10)
+    //정수를 두개를 입력받아 두수를 합친 수를 출력하는 함수 (ex: 3,4 입력시 >>> 34 /// 1,0 입력시 >>> 10)
     
     func plus(num1: Int, num2: Int) {
         
-        let combResult: String = String("\(num1)\(num2)")
+        // let combResult: String = String("\(num1)\(num2)")
+        let combResult: String = String(num1)+String(num2)
+        // String(num1+num2) 는 연산이 일어나기 때문에 원하는 값을 도출 할 수 없다
         print(combResult)
         
     }
@@ -209,7 +214,7 @@ class UnitConversionFunction {
     //실수를 하나 입력받아서 소수점 첫번재 자리에서 반올림 후 정수를 반환해주는 함수
     
     func rounds(num: Double) -> Int{
-        let resultNum: Int = Int(num)
+        let resultNum: Int = Int(num + 0.5) // 0.5 를 더하면 반올림이 되고 나머지 소수점을 Int로 캐스팅하여 없앤다
         return resultNum
         
     }
