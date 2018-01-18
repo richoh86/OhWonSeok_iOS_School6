@@ -275,16 +275,39 @@ class SwitchCodePractice {
     ///
     /// - Parameter year: 연도
     /// - Returns: 윤년 or 평년
-    func leapYear (year: Int) -> String {
+     func leapYear (year: Int) -> String {
         
         var result: String = ""
         
-        if year % 4 == 0 || ((year % 100 == 0) && ((year/100) % 400 == 0)) {
+        if year % 4 == 0 && year % 100 != 0 {
             
             result = "윤년"
             
+        }else if (year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0) {
+            
+            result = "윤년"
         }else{
             
+            result = "평년"
+        }
+        
+        return result
+    }
+    
+    // switch
+     func leapYearS(year: Int) -> String {
+        
+        var result: String = ""
+        
+        switch year {
+            
+        case let x where year % 4 == 0 && year % 100 != 0:
+            //        print(year)
+            result = "윤년"
+        case let x where (year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0):
+            print(year)
+            result = "윤년"
+        default:
             result = "평년"
         }
         
