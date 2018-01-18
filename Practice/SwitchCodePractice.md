@@ -301,10 +301,10 @@ class SwitchCodePractice {
         
         switch year {
             
-        case let x where year % 4 == 0 && year % 100 != 0:
+        case let x where x % 4 == 0 && year % 100 != 0:
             //        print(year)
             result = "윤년"
-        case let x where (year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0):
+        case let x where x % 400 == 0:
             print(year)
             result = "윤년"
         default:
