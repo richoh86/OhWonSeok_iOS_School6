@@ -1,5 +1,4 @@
-# iOS School 6기 오원석
-
+# iOS Study Book
 
 안녕하세요! iOS School 6기 오원석 입니다
 
@@ -8,6 +7,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 ## Theory
 > 이론 및 기본 예제
 
+* [Xcode_shorcutkey]
+
 * [Obeject Oriented Programming]
 
 * [Swift Basic Grammar]
@@ -15,8 +16,6 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 * [Variable & Function]
 
 * [Array]
-
-* [Xcode_shorcutkey]
 
 [Array]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ArrayTheory.md "Array Theory"
 

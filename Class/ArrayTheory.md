@@ -1,4 +1,4 @@
-# Collection Type
+# Collection Type #1
 
 ## Array 정의 : 
 > 배열(Array)의 번호(Index)와 번호에 대응하는 데이터들로 이루어진 자료구조를 나타낸다
