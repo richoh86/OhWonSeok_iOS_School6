@@ -26,7 +26,7 @@ var someStrings:Set = [“joo”,”young”]
 
 ## Set 기능
 
-![set 기능](/img/set.png)
+![set 기능] (/img/set.png)
 
 ## Set 예제
 
