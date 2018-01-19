@@ -248,3 +248,23 @@ func decimal(num: Int) -> String {
 print(decimal(num: 30))
 ~~~
 
+### 7. 피보나치 수열의 특정 위치의 숫자 값을 반환하는 함수
+~~~
+func q66 (num: Int) -> Int {
+    
+    var firstNum: Int = 0
+    var secondNum: Int = 1
+    
+    for _ in 1...num
+    {
+        let temp = firstNum + secondNum
+        firstNum = secondNum
+        secondNum = temp
+        print(firstNum,secondNum)
+    }
+    return firstNum
+    
+}
+
+print(q66(num: 8))
+~~~
