@@ -148,3 +148,50 @@ func sortA (arrayInput:[Int]) -> [Int]{
 
 print(sortA(arrayInput: arrayS))
 ~~~
+
+### 2. 에라토스테체 알고리즘을 이용하여  입력된 숫자까지의 모든 소수의 배열을 반환하는 함수
+~~~
+func eratosthenes(num:Int) -> [Int]{
+    var arrayResult:[Int] = [Int]()
+    
+    // 입력된 값이 2보다 작거나 같을 때 배열에 입력된 숫자까지 그대로 담는다.
+        if num <= 2 {
+        for a in 1...num {
+            arrayResult.append(a)
+        }
+        return arrayResult
+    
+    // 입력된 값이 2보다 클 때
+    }else if num > 2{
+        
+        // 배열에 입력된 숫자까지 1부터 담는다
+        for a in 1...num {
+            arrayResult.append(a)
+            }
+        
+        // 1,2,3,5,7을 제외하고 2,3,5,7의 배수는 배열에서 삭제한다 
+        for b in arrayResult{
+            
+            switch b {
+            case 1,2,3,5,7:
+                break
+            case let x where x % 2 == 0:
+            arrayResult.remove(at:arrayResult.index(of: x)!)
+            case let x where x % 3 == 0:
+            arrayResult.remove(at:arrayResult.index(of: x)!)
+            case let x where x % 5 == 0:
+            arrayResult.remove(at:arrayResult.index(of: x)!)
+            case let x where x % 7 == 0:
+            arrayResult.remove(at:arrayResult.index(of: x)!)
+            default:
+                break
+            }
+            
+        }
+        
+    }
+    return arrayResult
+}
+
+print(eratosthenes(num: 20))
+~~~
