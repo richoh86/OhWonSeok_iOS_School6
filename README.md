@@ -15,9 +15,17 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Variable & Function]
 
-* [Array]
+* [Array Theory]
 
-[Array]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ArrayTheory.md "Array Theory"
+* [Dictionary Theory]
+
+* [Set Theory]
+
+[Array Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/ArrayTheory.md
+
+[Set Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/SetTheory.md
+
+[Dictionary Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/DictionaryTheory.md
 
 [Obeject Oriented Programming]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Object_Oriented_Programming.md "Obeject Oriented Programming"
 
@@ -37,13 +45,15 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [함수 만들기]
 
+* [함수 심화 연습]
+
 * [If 구문 활용]
 
 * [Switch/Case 구문 활용]
 
-* [함수 심화 연습]
-
 * [While/For 구문 활용]
+
+* [Collection Type 활용]
 
 [계산기 만들기]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Calculator/Caculator.md "계산기 만들기"
 
@@ -58,4 +68,6 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 [함수 심화 연습]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/UnitCoversionFunction.md "함수 심화 연습"
 
 [While/For 구문 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/WhileForCodePractice.md "While/For 구문 활용"
+
+[Collection Type 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/CollectionTypePractice.md
 
