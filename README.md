@@ -9,7 +9,7 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Xcode_shorcutkey]
 
-* [Obeject Oriented Programming]
+* [Object Oriented Programming]
 
 * [Swift Basic Grammar]
 
@@ -27,7 +27,7 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 [Dictionary Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/DictionaryTheory.md
 
-[Obeject Oriented Programming]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Object_Oriented_Programming.md "Obeject Oriented Programming"
+[Object Oriented Programming]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Object_Oriented_Programming.md "Object Oriented Programming"
 
 [Swift Basic Grammar]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Swift_Basic_Grammar.md "Swift Basic Grammar"
 
