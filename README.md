@@ -39,8 +39,6 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 > 연습문제 코드 정리
 
-* [계산기 만들기]
-
 * [객체 생성 및 인스턴스화]
 
 * [함수 만들기]
@@ -54,8 +52,6 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 * [While/For 구문 활용]
 
 * [Collection Type 활용]
-
-[계산기 만들기]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Calculator/Caculator.md "계산기 만들기"
 
 [객체 생성 및 인스턴스화]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Object-Oriented%20Programming_Practice/ViewController.md "객체 생성 및 인스턴스화"
 
