@@ -12,6 +12,15 @@ func startEndNum(sNum:Int, eNum:Int){
     }
     print(someints)
 }
+
+// while 문으로 바꾸면..
+//    var valueNum: Int = sNum
+//    while valueNum < eNum {
+//
+//        someints.append(valueNum)
+//        valueNum += 1
+//    }
+
 //startEndNum(sNum: 1, eNum: 10)
 ~~~
 
@@ -75,6 +84,16 @@ func removeDup(inputArray: [Int]) -> [Int]{
     return resultA
 }
 
+//    contains 활용.
+//    for a in inputArray {
+//
+//        if !resultA.contains(a){
+//            resultA.append(a)
+//        }
+//
+//    }
+//    return resultA
+
 //print(removeDup(inputArray: arrayD))
 ~~~
 
@@ -115,8 +134,21 @@ func combination(arrayInput:[Int]) -> [[Int]]{
         }
     }
     result = [result1, result2, result3]
+    
+//    어떤 배열을 입력하더라도 원하는 값을 반환 할 수 있는 로직.
+//    for n in 0..<arrayInput.count
+//    {
+//        var firstV = arrayInput[n]
+//        for i in n+1..<arrayInput.count
+//        {
+//            let seconV = arrayInput[i]
+//            [firstV,seconV]
+//            result.append([firstV,seconV])
+//        }
+//    }
     return result
 }
+
 //print(combination(arrayInput: arrayC))
 ~~~
 ## Level 3
