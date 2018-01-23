@@ -7,8 +7,6 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 ## Theory
 > 이론 및 기본 예제
 
-* [Xcode_shorcutkey]
-
 * [Object Oriented Programming]
 
 * [Swift Basic Grammar]
@@ -20,6 +18,10 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 * [Dictionary Theory]
 
 * [Set Theory]
+
+> 참고사항
+
+* [Xcode_shorcutkey]
 
 [Array Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/ArrayTheory.md
 
