@@ -1,5 +1,19 @@
 # Collection Type 연습 문제 풀이
 
+> 이론은 아래 링크를 참고해주세요
+
+* [Array Theory]
+
+* [Set Theory]
+
+* [Dictionary Theory]
+
+[Array Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/ArrayTheory.md
+
+[Set Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/SetTheory.md
+
+[Dictionary Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/DictionaryTheory.md
+
 ## Level 1
 ### 1. 시작과 끝수를 받아서 두 수 사이의 모든 수를 가지고 있는 배열 만들기
 ~~~
