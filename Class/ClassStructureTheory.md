@@ -31,8 +31,8 @@ struct SomeStructure {// structure definition goes here}
 (단, Struct 에서는 Class를 활용할 수 없다)
 ~~~
 
-![](Img/classstruct.png "class&struct")
-![](Img/objectstruct.png "objectstruct")
+![](/Img/classstruct.png "class&struct")
+![](/Img/objectstruct.png "objectstruct")
 
 ## Initialization
 
