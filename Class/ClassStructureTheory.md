@@ -1,6 +1,6 @@
-# Class & Structure & Intialization
+# Class & Structure / Intialization
 
-## Definition
+## Class & Structure Definition
 
 ~~~
 * 프로그램 코드 블록의 기본 구조
@@ -18,13 +18,13 @@
 * 프로토콜 채택 가능.
 ~~~
 
-## 기본 구조 
+### 기본 구조 
 ~~~
 class SomeClass {// class definition goes here}
 
 struct SomeStructure {// structure definition goes here}
 ~~~
-## 인스턴스 접근 예제
+### 인스턴스 접근 예제
 ~~~
 클래스 VideoMode 에서 Struct Resolutiond의 인스턴스를 만들어서 활용할 수 있다 
 
@@ -34,7 +34,7 @@ struct SomeStructure {// structure definition goes here}
 ![](/Img/classstruct.png "class&struct")
 ![](/Img/objectstruct.png "objectstruct")
 
-## Initialization
+## Initialization Definition
 
 ~~~
 * 초기화는 클래스, 구조체, 열거형의 인스턴스를 만들기 위한 준비과정으로 사용
@@ -55,7 +55,7 @@ init() {
 
 ### Customizing Initialization
 
-> initializer는 개발자의 목적에 따라서 customize 가 가능하다
+> initializer는 개발의 목적에 따라서 customize 가 가능하다
 
 > 아래 예제에서는 fahrenheit 값으로 parameter를 받아서 Celcius 값으로 변환해주는 Initializer와
 > kelvin 이라는 값으로 parameter를 받아서 Celcius 값으로 변환해주는 Initializer 2개가 customize 된 것으로 볼 수 있다
