@@ -26,7 +26,7 @@ struct SomeStructure {// structure definition goes here}
 ~~~
 ### 인스턴스 접근 예제
 ~~~
-클래스 VideoMode 에서 Struct Resolutiond의 인스턴스를 만들어서 활용할 수 있다 
+클래스 VideoMode 에서 Struct Resolution의 인스턴스를 만들어서 활용할 수 있다 
 
 (단, Struct 에서는 Class를 활용할 수 없다)
 ~~~
