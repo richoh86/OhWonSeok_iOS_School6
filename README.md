@@ -21,9 +21,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Class Structure & Initialization]
 
+* [Optional Theory]
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Optional Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Optional.md
 
 [Class Structure & Initialization]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ClassStructureTheory.md
 
@@ -88,3 +92,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 [Calculator]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/Calculator/Caculator.md "Calculator"
 
 [BaseBall Game]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/BaseBallGame.md "BaseBall Game"
+
+## Info
+
+* Cell Phone: 010.4736.8047
+* Email: wsoh1986@gmail.com
