@@ -19,9 +19,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Set Theory]
 
+* [Class Structure & Initialization]
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Class Structure & Initialization]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ClassStructureTheory.md
 
 [Array Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/ArrayTheory.md
 
