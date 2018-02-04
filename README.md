@@ -81,6 +81,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Class와 Struct 활용]
 
+* [Frame-Base UI뷰 연습]
+
 [객체 생성 및 인스턴스화]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Object-Oriented%20Programming_Practice/ViewController.md "객체 생성 및 인스턴스화"
 
 [함수 만들기]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/FunctionPractice.md "함수 만들기"
@@ -96,6 +98,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 [Collection Type 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/CollectionTypePractice.md
 
 [class와 struct 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/ClassStructPractice.md "class와 struct 활용"
+
+[Frame-Base UI뷰 연습]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Frame-BasePractice.md
 
 ## Project
 
