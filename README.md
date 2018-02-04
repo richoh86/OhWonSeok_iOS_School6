@@ -105,11 +105,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 > 프로젝트 정리
 
-* [Calculator]
+* [Calculator-기본 뷰와 로직만 구현]
+
+
 
 * [BaseBall Game]
 
-[Calculator]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/Calculator/Caculator.md "Calculator"
+[Calculator-기본 뷰와 로직만 구현]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/Calculator/Caculator.md "Calculator"
 
 [BaseBall Game]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/BaseBallGame.md "BaseBall Game"
 
