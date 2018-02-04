@@ -18,7 +18,7 @@
 
 > Cocoa Touch Framework에 추가된 UI를 구현할 수 있는 기능이 모여있는 Framework
 
-![] (/Img/classH.png)
+![](/Img/classH.png "UI클래스구조") 
 
 ~~~
 모든 클래스를 보여주는 자료의 이미지는 아니지만 가장 많이 사용되는 클래스 위주로 구성되어 있으며,
