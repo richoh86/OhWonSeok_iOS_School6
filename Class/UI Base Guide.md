@@ -1,6 +1,6 @@
 # UI Base Guide
 
-## Resolition
+## Resolution
 
 > Pixel: 실제 이미지 사이즈
 
