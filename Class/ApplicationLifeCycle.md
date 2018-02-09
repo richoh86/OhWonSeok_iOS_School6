@@ -64,7 +64,7 @@ storyboard file로 부터 로딩시키고 개발자의 커스텀 코드를 호�
  
  
 ~~~
-아래 함수들은 App 작동 시점에 따라서 호출되는 함수들이, 해당 함수들은 오버라이드해서 활용가능하다
+아래 함수들은 App 작동 시점에 따라서 호출되며, 해당 함수들은 오버라이드해서 활용가능하다
 
 application:willFinishLaunchingWithOptions
 application:didFinishLaunchingWithOptions
