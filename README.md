@@ -125,7 +125,7 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 > 프로젝트 정리
 
-* [FireBase 활용 (로그인,회원가입,메인)]
+* [로그인/회원가입/메인 (FireBase 활용)]
 
 * [Calculator(기본 뷰와 로직만 구현)]
 
@@ -133,7 +133,7 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [BaseBall Game]
 
-[FireBase 활용 (로그인,회원가입,메인)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/FireBase.md
+[로그인/회원가입/메인 (FireBase 활용)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/FireBase.md
 
 [Calculator(뷰 및 로직 개선)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/CalculatorDiff/UiViewPractice2/ViewController.swift
 
