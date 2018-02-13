@@ -33,9 +33,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Application Life Cycle] 
 
+* [UITextField]
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[UITextField]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UITextField.md
 
 [Application Life Cycle]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ApplicationLifeCycle.md
 
