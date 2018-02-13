@@ -13,15 +13,15 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Variable & Function]
 
-* [Array Theory]
+* [Array]
 
-* [Dictionary Theory]
+* [Dictionary]
 
-* [Set Theory]
+* [Set]
 
 * [Class Structure & Initialization]
 
-* [Optional Theory]
+* [Optional]
 
 * [Access Control]
 
@@ -63,15 +63,15 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 [Access Control]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/AccessControl.md
 
-[Optional Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Optional.md
+[Optional]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Optional.md
 
 [Class Structure & Initialization]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ClassStructureTheory.md
 
-[Array Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/ArrayTheory.md
+[Array]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/ArrayTheory.md
 
-[Set Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/SetTheory.md
+[Set]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/SetTheory.md
 
-[Dictionary Theory]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/DictionaryTheory.md
+[Dictionary]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Collection%20Type/DictionaryTheory.md
 
 [Object Oriented Programming]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Object_Oriented_Programming.md "Object Oriented Programming"
 
