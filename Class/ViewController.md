@@ -115,5 +115,31 @@ View Controller를 Sub View Controller로 가지고 있다.
 
 ### Navigation Controller
 
+> Navigation Controller의 활용은 아이폰 setting(설정) 화면에서도 확인 가능합니다
+
+![](/Img/navi1.png "navi1")
+
+> UINavigationController Class
+
+> Navigation Controller는 다른 뷰컨트롤들을 스택으로 관리한다
+
+![](/Img/navi2.png "navi2")
+
+> 아래 시계 앱에서도 Navigation Controller를 활용하고 있으며, 이미지는 내부 뷰의 구조를 보여주고 있다
+
+![](/Img/navi3.png "navi3")
+
+> Navigation Controller는 스토리보드에서 선택된 뷰컨트롤로의 Navigation Controller로 설정할 수 있다
+> 방법은 아래 순서와 같다 
+
+1. ViewController 선택
+2. Editor -> Embed in -> Navigation Controller 선택
+3. Navigation Controller 지정
+
+
+
+
+
+
 
 
