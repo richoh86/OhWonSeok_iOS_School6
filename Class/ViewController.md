@@ -136,10 +136,30 @@ View Controller를 Sub View Controller로 가지고 있다.
 2. Editor -> Embed in -> Navigation Controller 선택
 3. Navigation Controller 지정
 
+### Navigation Bar
 
+> 네비게이션 인터페이스를 관리하는 뷰
 
+> navigation bar의 외관은 customize할 수 있지만,
+> frame, bounds, or alpha values는 직접 바꿀 수 없다
 
+![](/Img/navib1.png "navib1")
 
+> 위 이미지는 일반적으로 볼 수 있는 navigation bar의 모습이다
 
+![](/Img/navib3.png "navib3")
 
+> 기본적으로 navigation bar는 stack 구조로 되어 있으며, popNavigationItemAnimated, pushNavigationItem 메소드를 통해서 stack에 쌓여있는 기존 Item을 가장 위에서부터 지우거나 신규 Item을
+가장 위 부터 쌓을 수 있다 
 
+![](/Img/navib2.png "navib2")
+
+> navigation bar 내부 구조의 모습이며, 커스터마이즈가 가능하다
+
+1. left: backBarButtonItem, leftBarButtonItem
+2. Center: titleView
+3. Right: rightBarButtonItem
+
+![](/Img/navib4.png "navib4")
+
+> tintColor를 변경 할 수도 있으며, 텍스트의 포지션도 변경이 가능하다
