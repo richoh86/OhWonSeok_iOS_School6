@@ -41,6 +41,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [UIViewController]
 
+* [UIAlertController]
+
 * [ViewController]
 
 * [User Default]
@@ -48,6 +50,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[UIAlertController]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UIAlertController.md
 
 [User Default]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UserDefault.md
 
