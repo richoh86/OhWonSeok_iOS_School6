@@ -39,11 +39,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [ScrollView]
 
+* [ViewController]
+
 * [UIViewController]
 
 * [UIAlertController]
 
-* [ViewController]
+* [NavigationController]
 
 * [User Default]
 
@@ -54,6 +56,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[NavigationController]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/NavigationController.md
 
 [Subscript & Extensions & Generic]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Subscript%26Extensions%26Generic.md
 
