@@ -152,3 +152,44 @@ var someInt = 3
 someInt.square()
 // someInt is now 9
 ~~~
+
+## Generic
+
+- 어떤 타입에도 유연한 코드를 구현하기 위해 사용되는 기능 
+- 코드의 중복을 줄이고, 깔끔하고 추상적인 표현이 가능하다
+
+**[1]** : Int type이 매개변수인 스왑 함수
+
+~~~
+func swapTwoInts(_ a: inout Int, _ b: inout Int) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+~~~
+
+**[2]** : String type이 매개변수인 스왑 함수
+
+~~~
+func swapTwoStrings(_ a: inout String, _ b: inout String) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+~~~
+
+> **[1]**,**[2]** 와 같이 매개변수는 원하는 함수 로직 구현을 위해 타입을 변경해야 한다
+
+~~~
+func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+~~~
+
+- 하지만 generic을 활용시 실제 type name 대신에 placeholder type name을 (<T>와 같이) 사용해서 a 와 b가
+같다는 전제 하에 모든 타입의 변수를 넣어줄 수 있다  
+
+- < > 안에 들어가는 placeholder type name은 정해진 것은 없으며, Dictionary<Key, Value>, 
+Array<Element> 와 같이 매개변수 간의 의미있는 관계가 있다면 이름을 적절하게 만들어주는 것이 좋다 만약, 특별한 의미나 관계가 없다면 예전부터 T,U,V 와 같은 이름을 많이 활용하는 편이다 
