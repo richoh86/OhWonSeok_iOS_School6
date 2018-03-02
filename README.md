@@ -49,9 +49,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Automatic Reference Counting] 
 
+* [Subscript & Extensions & Generic]
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Subscript & Extensions & Generic]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Subscript%26Extensions%26Generic.md
 
 [Automatic Reference Counting]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/ARC(Automatic%20Reference%20Counting).md
 
