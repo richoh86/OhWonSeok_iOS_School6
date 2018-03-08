@@ -8,8 +8,8 @@
 
 # Contact Info
 
-* Cell Phone: <span style="color:blue">010.4736.8047</span>
-* e-mail: <span style="color:blue">wsoh1986@gmail.com</span>
+* Cell Phone: 010.4736.8047
+* e-mail: wsoh1986@gmail.com
 
 # Theory
 > 이론 및 기본 예제
@@ -77,6 +77,8 @@
 
   * [Property List] - 심플한 “파일” 저장 방법 중 하나
   * [Automatic Reference Counting] - ownerShip 정책에 의해 객체의 해제 여부를 결정
+
+---
 
 * **9th Week** :
   * [Subscript & Extensions & Generic] - Subscript(Array[index] 표현), Extensions(확장 키워드), Generic (어떤 타입에도 유연한 코드를 구현하기 위해 사용되는 기능)
