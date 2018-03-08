@@ -7,73 +7,63 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 # Theory
 > 이론 및 기본 예제
 
-* 1st Week : **Swift 기초 개념**
+* 1st Week : Swift 기초 개념
 
-| Title | Link | Remarks |
-|---|---|---|
-| 객체지향 프로그래밍이란? | [Object Oriented Programming] | 객체 지향 프로그램에 대한 기본적인 개념 설명을 정리|
-| Swift 기초 문법 | [Swift Basic Grammar] | Swift 기초 문법을 간략하게 정리 |
-| 변수와 함수  | [Variable & Function] | Swift에서 변수와 함수 선언 방법과 개념을 정리 |
+
+ * [Object Oriented Programming] - 객체 지향 프로그램에 대한 기본적인 개념 설명을 정리|
+ * [Swift Basic Grammar] - Swift 기초 문법을 간략하게 정리
+ * [Variable & Function] - Swift에서 변수와 함수 선언 방법과 개념을 정리
 
 --- 
 
-* 2nd Week : **Collection Type 3가지**
+* 2nd Week : Collection Type 3가지
 
-| Title | Link | Remarks |
-|---|---|---|
-| Array(배열)란? | [Array] |배열(Array)의 번호(Index)와 번호에 대응하는 데이터들로 이루어진 자료구조| 
-| Dictionary란? | [Dictionary] |순서가 정해져있지 않은 데이터를 키값을 통해서 구분할 수 있는 자료구조|
-| Set이란?  | [Set] |같은 타입의 데이터가 순서없이 모여있는 자료구조|
+
+ * [Array] - 배열(Array)의 번호(Index)와 번호에 대응하는 데이터들로 이루어진 자료구조 
+ * [Dictionary] - 순서가 정해져있지 않은 데이터를 키값을 통해서 구분할 수 있는 자료구조
+ * [Set] - 같은 타입의 데이터가 순서없이 모여있는 자료구조
 
 ---
 
-* 3rd Week : **클래스/구조체 + 옵셔널 + 접근제어**
+* 3rd Week : 클래스/구조체 + 옵셔널 + 접근제어
  
-| Title | Link | Remarks |
-|---|---|---|
-| 클래스/구조체 & 초기화 | [Class Structure & Initialization] | 클래스와 구조체는 프로그램 코드 블록의 기본 구조이며, 초기화는 클래스, 구조체, 열거형의 인스턴스를 만들기 위한 준비과정으로 사용 | 
-| 옵셔널이란? | [Optional] | Type Safety 를 위한 컴파일러 수준의 nil 체크 |
-| 접근제어란?  | [Access Control] | 외부 모듈에서 접근을 제어하는 수단|
+
+ * [Class Structure & Initialization] - 클래스와 구조체는 프로그램 코드 블록의 기본 구조이며, 초기화는 클래스, 구조체, 열거형의 인스턴스를 만들기 위한 준비과정으로 사용 
+ * [Optional] - Type Safety 를 위한 컴파일러 수준의 nil 체크 
+ * [Access Control] | 외부 모듈에서 접근을 제어하는 수단|
 
 ---
 
-* 4th Week : **프로퍼티 종류별 정의 + 프레임베이스 + 프레임워크**
+* 4th Week : 프로퍼티 종류별 정의 + 프레임베이스 + 프레임워크
 
-| Title | Link | Remarks |
-|---|---|---|
-| 프로퍼티란? | [Property] | 클래스, 구조체, 열거형에서 전체 속성으로 사용되는 변수| 
-| iOS Basic UI & FrameBase | [UI Base Guide] | iOS 기기들의 해상도와 FrameBase의 개념 |
-| 프레임워크란?   | [Application Framework] | 응용 프로그램 표준 구조를 구현하는 클래스와 라이브러리 모임|
 
----
-
-* 5th Week : **라이프사이클 + 텍스트필드 + 델리게이트패턴**
-
-| Title | Link | Remarks |
-|---|---|---|
-| 앱의 라이프 사이클? | [Application Life Cycle]  | 어플리케이션의 라이플 사이클과 MVC 모델의 개념| 
-| 텍스트 필드 | [UITextField] | 사용자 텍스트 입력을 위한 UI Component|
-| 델리케이트 패턴이란?| [Delegate Pattern] | 델리케이트는 클래스나 구조체에서의 일부분의 할 일을 다른 인스턴스에게 대신하게 하는 디자인 패턴|
+ * [Property] - 클래스, 구조체, 열거형에서 전체 속성으로 사용되는 변수
+ * [UI Base Guide] - iOS 기기들의 해상도와 FrameBase의 개념 
+ * [Application Framework] - 응용 프로그램 표준 구조를 구현하는 클래스와 라이브러리 모임
 
 ---
 
-* 6th Week : **스크롤뷰와 뷰컨트롤러**
+* 5th Week : 라이프사이클 + 텍스트필드 + 델리게이트패턴
 
-| Title | Link | Remarks |
-|---|---|---|
-| 스크롤 뷰 | [ScrollView] | ViewSize보다 확장된 뷰를 보기위한 View| 
-| 뷰 컨트롤러 #1 | [UIViewController] | 앱의 기초가 되는 내부 구조 |
-| 뷰 컨트롤러 #2 | [ViewController] | 일반적인 View Controller의 형태 |
+ * [Application Life Cycle] - 어플리케이션의 라이플 사이클과 MVC 모델의 개념
+ * [UITextField] - 사용자 텍스트 입력을 위한 UI Component
+ * [Delegate Pattern] - 델리케이트는 클래스나 구조체에서의 일부분의 할 일을 다른 인스턴스에게 대신하게 하는 디자인 패턴
 
 ---
 
-* 7th Week : **얼럿컨트롤러 + 네비게이션컨트롤러 + 유저디폴트**
+* 6th Week : 스크롤뷰와 뷰컨트롤러
+ 
+ * [ScrollView] - ViewSize보다 확장된 뷰를 보기위한 View
+ * [UIViewController] - 앱의 기초가 되는 내부 구조
+ * [ViewController] - 일반적인 View Controller의 형태 
 
-| Title | Link | Remarks |
-|---|---|---|
-| 얼럿 컨트롤러 | [UIAlertController] | 메세지를 화면에 보여주기위해서 사용하는 오브젝트| 
-| 네비게이션 컨트롤러 | [NavigationController] | View Controller의 Container역할을 하는 View Controller|
-| 유저 디폴트 | [User Default] | 파일 저장을 할 수 있는 싱글턴 객체|
+---
+
+* 7th Week : 얼럿컨트롤러 + 네비게이션컨트롤러 + 유저디폴트
+
+ * [UIAlertController] - 메세지를 화면에 보여주기위해서 사용하는 오브젝트
+ * [NavigationController] - View Controller의 Container역할을 하는 View Controller
+ * [User Default] - 파일 저장을 할 수 있는 싱글턴 객체
 
 --- 
 
