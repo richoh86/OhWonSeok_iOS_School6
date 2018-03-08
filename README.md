@@ -1,4 +1,4 @@
- <p align="center">![apple](/Img/apple.png "apple")</p>
+ <p align="center"><img width="460" height="300" src="/Img/apple.png"></p>
 
 # About Me
 
