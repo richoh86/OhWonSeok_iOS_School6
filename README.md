@@ -152,10 +152,37 @@
 
 > 연습문제 코드 정리
 
+<center>
+<table>
+<thead>
+<tr>
+  <th>First Header</th>
+  <th>Second Header</th>
+   <th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Content Cell</td>
+  <td>Content Cell</td>
+  <td>Content Cell</td>
+</tr>
+<tr>
+  <td>Content Cell</td>
+  <td>Content Cell</td>
+  <td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+</center>
+
+
 | [객체 생성 및 인스턴스화] | [함수 만들기]   | [함수 심화 연습]   |
 |---|---|---|
 | **[If 구문 활용]**  | **[Switch/Case 구문 활용]** |  **[While/For 구문 활용]** |
 | **[Collection Type 활용]** | **[class와 struct 활용]** | **[Frame-Base UI뷰 연습]** |
+
+
 
 [객체 생성 및 인스턴스화]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Object-Oriented%20Programming_Practice/ViewController.md "객체 생성 및 인스턴스화"
 
