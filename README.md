@@ -2,8 +2,15 @@
 
 # About Me 
 
-* Name: WonSeok Oh
+* **Won Seok Oh**
 
+   * Michigan State University (2006 - 2013)
+   * SK C&C ERP System Operation (2013 - 2015)
+   * Master of Business Administration Of Ajou University, Senior (2015 - 2018)
+   * ZigBang Application Members Management Team (2016)
+   * FastCampus IOS School 6 (2018.01 - 2018.04)  
+   * CTO of Real-Estate Business "SangSeng" (2018)
+   
 # Contact Info
 
 * Cell Phone: 010.4736.8047
@@ -145,23 +152,10 @@
 
 > 연습문제 코드 정리
 
-* [객체 생성 및 인스턴스화]
-
-* [함수 만들기]
-
-* [함수 심화 연습]
-
-* [If 구문 활용]
-
-* [Switch/Case 구문 활용]
-
-* [While/For 구문 활용]
-
-* [Collection Type 활용]
-
-* [Class와 Struct 활용]
-
-* [Frame-Base UI뷰 연습]
+| [객체 생성 및 인스턴스화] | [함수 만들기]   | [함수 심화 연습]   |
+|---|---|---|
+| **[If 구문 활용]**  | **[Switch/Case 구문 활용]** |  **[While/For 구문 활용]** |
+| **[Collection Type 활용]** | **[class와 struct 활용]** | **[Frame-Base UI뷰 연습]** |
 
 [객체 생성 및 인스턴스화]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Object-Oriented%20Programming_Practice/ViewController.md "객체 생성 및 인스턴스화"
 
@@ -183,17 +177,21 @@
 
 ## Project
 
-> 프로젝트 정리
+> 프로젝트 리스트
+
+* **Game**
  
-* [BlackJack21 Game]
+  * [BlackJack21 Game]
+  * [BaseBall Game]
 
-* [로그인/회원가입/메인 (FireBase 활용)]
+* **Login & Registration**
 
-* [Calculator(기본 뷰와 로직만 구현)]
+  * [로그인/회원가입/메인 (FireBase 활용)]
 
-* [Calculator(뷰 및 로직 개선)]
+* **Caculator**
 
-* [BaseBall Game]
+  * [Calculator(기본 뷰와 로직만 구현)]
+  * [Calculator(뷰 및 로직 개선)]
 
 [BlackJack21 Game]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/BlackJack21/BlackJack21/ViewController.swift
 
