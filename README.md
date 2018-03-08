@@ -1,4 +1,6 @@
-# iOS Study Book ![apple] (/Img/apple.png "apple")
+# iOS Study Book 
+
+![apple] (/Img/apple.png "apple")
 
 # About Me
 
