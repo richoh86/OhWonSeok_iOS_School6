@@ -1,4 +1,4 @@
- <center>![apple](/Img/apple.png "apple")</center>
+ ![apple](/Img/apple.png "apple")
 
 # About Me
 
