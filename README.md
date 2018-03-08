@@ -1,6 +1,5 @@
- <p align="center"><img width="460" height="300" src="/Img/apple.png"></p>
+# About Me <p align="right"><img width="150" height="150" src="/Img/apple.png"></p>
 
-# About Me
 
 * Name: WonSeok Oh
 
