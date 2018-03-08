@@ -152,32 +152,31 @@
 
 > 연습문제 코드 정리
 
-<center>
 
-| [객체 생성 및 인스턴스화] | [함수 만들기]   | [함수 심화 연습]   |
+
+| [Object & Instance] | [Function level 1]   | [Function level 2]   |
 |:---:|:---:|:---:|
-| **[If 구문 활용]**  | **[Switch/Case 구문 활용]** |  **[While/For 구문 활용]** |
-| **[Collection Type 활용]** | **[class와 struct 활용]** | **[Frame-Base UI뷰 연습]** |
+| **[If Code]**  | **[Switch/Case]** |  **[While/For]** |
+| **[Collection Type]** | **[Class/Struct]** | **[Frame-Base]** |
 
-</center>
 
-[객체 생성 및 인스턴스화]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Object-Oriented%20Programming_Practice/ViewController.md "객체 생성 및 인스턴스화"
+[Object & Instance]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Object-Oriented%20Programming_Practice/ViewController.md "객체 생성 및 인스턴스화"
 
-[함수 만들기]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/FunctionPractice.md "함수 만들기"
+[Function level 1]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/FunctionPractice.md "함수 만들기"
 
-[If 구문 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/IfCodePractice.md "If 구문 활용"
+[If Code]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/IfCodePractice.md "If 구문 활용"
 
-[Switch/Case 구문 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/SwitchCodePractice.md "Switch/Case 구문 활용"
+[Switch/Case]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/SwitchCodePractice.md "Switch/Case 구문 활용"
 
-[함수 심화 연습]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/UnitCoversionFunction.md "함수 심화 연습"
+[Function level 2]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/UnitCoversionFunction.md "함수 심화 연습"
 
-[While/For 구문 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/WhileForCodePractice.md "While/For 구문 활용"
+[While/For]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/WhileForCodePractice.md "While/For 구문 활용"
 
-[Collection Type 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/CollectionTypePractice.md
+[Collection Type]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/CollectionTypePractice.md
 
-[class와 struct 활용]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/ClassStructPractice.md "class와 struct 활용"
+[Class/Struct]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/ClassStructPractice.md "class와 struct 활용"
 
-[Frame-Base UI뷰 연습]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Frame-BasePractice.md
+[Frame-Base]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Practice/Frame-BasePractice.md
 
 ## Project
 
