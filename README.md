@@ -1,6 +1,4 @@
-# <center><span style="color:lightBlue">iOS Study Book</span></center>
-
-
+# iOS Study Book ![apple] (/Img/apple.png"")
 
 # About Me
 
