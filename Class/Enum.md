@@ -134,7 +134,7 @@ case mercury=1, venus, earth, mars, jupiter, saturn, uranus, neptune
        let possiblePlanet:Planet? = Planet(rawValue: 1)
 ~~~
 
-### Enum function Example
+### Function
 
 > 열거형 내부에는 함수도 선언이 가능하며 얼거형을 중첩해서 사용도 가능하다
 
