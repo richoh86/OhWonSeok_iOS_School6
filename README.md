@@ -77,7 +77,9 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 --- 
 
-* [UITableView] 
+* [UITableView]
+
+* [Notification] 
 
 * [Property List]
 
@@ -89,6 +91,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Notification]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Notification.md
 
 [UITableView]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UITableView.md
 
