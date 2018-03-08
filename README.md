@@ -75,20 +75,22 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | 네비게이션 컨트롤러 | [NavigationController] | View Controller의 Container역할을 하는 View Controller|
 | 유저 디폴트 | [User Default] | 파일 저장을 할 수 있는 싱글턴 객체|
 
----
+--- 
 
-* 8th Week : 
+* [UITableView] 
 
 * [Property List]
 
 * [Automatic Reference Counting] 
 
 * [Subscript & Extensions & Generic]
----
+
 
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[UITableView]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UITableView.md
 
 [Property List]:https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/PropertyList.md
 
