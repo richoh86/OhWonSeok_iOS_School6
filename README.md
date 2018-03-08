@@ -7,7 +7,7 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 # Theory
 * 이론 및 기본 예제
 
-> 1st Week # Swift 기초 개념
+> 1st Week : **Swift 기초 개념**
 
 --- 
 | Title | Link | Remarks |
@@ -16,9 +16,7 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | Swift 기초 문법 | [Swift Basic Grammar] | Swift 기초 문법을 간략하게 정리 |
 | 변수와 함수  | [Variable & Function] | Swift에서 변수와 함수 선언 방법과 개념을 정리 |
 
-> 2nd Week # Collection Type
-
---- 
+> 2nd Week : **Collection Type 3가지**
 
 | Title | Link | Remarks |
 |---|---|---|
@@ -26,9 +24,9 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | Dictionary란? | [Dictionary] |순서가 정해져있지 않은 데이터를 키값을 통해서 구분할 수 있는 자료구조|
 | Set이란?  | [Set] |같은 타입의 데이터가 순서없이 모여있는 자료구조|
 
-> 3rd Week 
-
 ---
+
+> 3rd Week : **클래스/구조체 + 옵셔널 + 접근제어**
  
 | Title | Link | Remarks |
 |---|---|---|
@@ -36,9 +34,9 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | 옵셔널이란? | [Optional] | Type Safety 를 위한 컴파일러 수준의 nil 체크 |
 | 접근제어란?  | [Access Control] | 외부 모듈에서 접근을 제어하는 수단|
 
-> 4th Week 
-
 ---
+
+> 4th Week : **프로퍼티 종류별 정의 + 프레임베이스 + 프레임워크**
 
 | Title | Link | Remarks |
 |---|---|---|
@@ -46,9 +44,9 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | iOS Basic UI & FrameBase | [UI Base Guide] | iOS 기기들의 해상도와 FrameBase의 개념 |
 | 프레임워크란?   | [Application Framework] | 응용 프로그램 표준 구조를 구현하는 클래스와 라이브러리 모임|
 
-> 5th Week 
-
 ---
+
+> 5th Week : **라이프사이클 + 텍스트필드 + 델리게이트패턴**
 
 | Title | Link | Remarks |
 |---|---|---|
@@ -56,9 +54,9 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | 텍스트 필드 | [UITextField] | 사용자 텍스트 입력을 위한 UI Component|
 | 델리케이트 패턴이란?| [Delegate Pattern] | 델리케이트는 클래스나 구조체에서의 일부분의 할 일을 다른 인스턴스에게 대신하게 하는 디자인 패턴|
 
-> 6th Week 
-
 ---
+
+> 6th Week : **스크롤뷰와 뷰컨트롤러**
 
 | Title | Link | Remarks |
 |---|---|---|
@@ -66,9 +64,9 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | 뷰 컨트롤러 #1 | [UIViewController] | 앱의 기초가 되는 내부 구조 |
 | 뷰 컨트롤러 #2 | [ViewController] | 일반적인 View Controller의 형태 |
 
-> 7th Week 
-
 ---
+
+> 7th Week : **얼럿컨트롤러 + 네비게이션컨트롤러 + 유저디폴트**
 
 | Title | Link | Remarks |
 |---|---|---|
@@ -76,14 +74,16 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 | 네비게이션 컨트롤러 | [NavigationController] | View Controller의 Container역할을 하는 View Controller|
 | 유저 디폴트 | [User Default] | 파일 저장을 할 수 있는 싱글턴 객체|
 
-8th Week 
 ---
+
+> 8th Week : 
 
 * [Property List]
 
 * [Automatic Reference Counting] 
 
 * [Subscript & Extensions & Generic]
+---
 
 > 참고사항
 
