@@ -9,12 +9,13 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 > 1st Week : **Swift 기초 개념**
 
---- 
 | Title | Link | Remarks |
 |---|---|---|
 | 객체지향 프로그래밍이란? | [Object Oriented Programming] | 객체 지향 프로그램에 대한 기본적인 개념 설명을 정리|
 | Swift 기초 문법 | [Swift Basic Grammar] | Swift 기초 문법을 간략하게 정리 |
 | 변수와 함수  | [Variable & Function] | Swift에서 변수와 함수 선언 방법과 개념을 정리 |
+
+--- 
 
 > 2nd Week : **Collection Type 3가지**
 
