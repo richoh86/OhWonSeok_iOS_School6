@@ -81,6 +81,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 
 * [Notification] 
 
+* [Enum]
+
 * [Property List]
 
 * [Automatic Reference Counting] 
@@ -91,6 +93,8 @@ iOS 개발자 과정을 수강하면서 학습한 내용을 정리 중입니다
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Enum]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Enum.md
 
 [Notification]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Notification.md
 
