@@ -4,7 +4,6 @@
 
 * **Won Seok Oh**
 
-   * Michigan State University (2006 - 2013)
    * SK C&C ERP System Operator (2013 - 2015)
    * Master of Business Administration of Ajou University, Senior (2015 - 2018)
    * ZigBang, Members Management Team (2016)
@@ -70,7 +69,7 @@
 
 ---
 
-* **7th Week** : 테이블 뷰 + 노티피케이션 + 열거형
+* **7th Week** : 테이블 뷰 + 노티피케이션 + 싱글톤 패턴 + 열거형
  
   * [UITableView] - 하나의 열을 가지고 커스텀한 셀을 만들어서 데이터를 보여줄 수 있는 리스트 형태의 뷰
   * [Notification] - 특정 이벤트가 발생 하였음을 알리기 위해 불특정 다수의 객체에게 알리기 위해 사용하는 클래스
