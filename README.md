@@ -8,7 +8,7 @@
    * SK C&C ERP System Operator (2013 - 2015)
    * Master of Business Administration of Ajou University, Senior (2015 - 2018)
    * ZigBang, Members Management Team (2016)
-   * FastCampus IOS School 6 (2018.01 - 2018.04)  
+   * FastCampus IOS School 6th (2018.01 - 2018.04)  
    * CTO of Real-Estate Agency "SangSeng" (2018)
    
 # Contact Info
