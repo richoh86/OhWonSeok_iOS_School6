@@ -82,6 +82,7 @@
 
   * [Property List] - 심플한 “파일” 저장 방법 중 하나
   * [Automatic Reference Counting] - ownerShip 정책에 의해 객체의 해제 여부를 결정
+  * [UIGestureRecognizer] - 사용자의 입력을 전달받을 수 있는 방법을 제공 ex) touch, swipe 등등
 
 ---
 
@@ -89,6 +90,7 @@
 
   * [Subscript & Extensions & Generic] - Subscript(Array[index] 표현), Extensions(확장 키워드), Generic (어떤 타입에도 유연한 코드를 구현하기 위해 사용되는 기능)
   
+---  
 
 * **10th Week** :
 
@@ -97,6 +99,8 @@
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[UIGestureRecognizer]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UIGestureRecognizer.md
 
 [Handling Errors]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/HandlingErrors.md
 
