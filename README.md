@@ -5,16 +5,16 @@
 * **Won Seok Oh**
 
    * Michigan State University (2006 - 2013)
-   * SK C&C ERP System Operation (2013 - 2015)
-   * Master of Business Administration Of Ajou University, Senior (2015 - 2018)
-   * ZigBang Application Members Management Team (2016)
+   * SK C&C ERP System Operator (2013 - 2015)
+   * Master of Business Administration of Ajou University, Senior (2015 - 2018)
+   * ZigBang, Members Management Team (2016)
    * FastCampus IOS School 6 (2018.01 - 2018.04)  
-   * CTO of Real-Estate Business "SangSeng" (2018)
+   * CTO of Real-Estate Agency "SangSeng" (2018)
    
 # Contact Info
 
 * Cell Phone: 010.4736.8047
-* e-mail: wsoh1986@gmail.com
+* E-Mail: wsoh1986@gmail.com
 
 # Theory
 > 이론 및 기본 예제
