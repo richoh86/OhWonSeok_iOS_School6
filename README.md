@@ -74,6 +74,7 @@
  
   * [UITableView] - 하나의 열을 가지고 커스텀한 셀을 만들어서 데이터를 보여줄 수 있는 리스트 형태의 뷰
   * [Notification] - 특정 이벤트가 발생 하였음을 알리기 위해 불특정 다수의 객체에게 알리기 위해 사용하는 클래스
+  * [Singleton Pattern] - 어플리케이션 전 영역의 걸쳐 하나의 클래스의 단 하나의 인스턴스만(객체)을 생성하는 것
   * [Enumeration] - 그룹에 대한 연관된 값을 정의하고 사용가능한 타입
 
 --- 
@@ -91,6 +92,8 @@
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Singleton Pattern]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/SingletonPattern.md
 
 [Enumeration]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Enum.md
 
