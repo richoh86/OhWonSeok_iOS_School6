@@ -82,7 +82,7 @@
 
   * [Property List] - 심플한 “파일” 저장 방법 중 하나
   * [Automatic Reference Counting] - ownerShip 정책에 의해 객체의 해제 여부를 결정
-  * [UIGestureRecognizer] - 사용자의 입력을 전달받을 수 있는 방법을 제공 ex) touch, swipe 등등
+  * [UIGestureRecognizer] - 사용자의 입력을 전달받을 수 있는 방법을 제공 ex) tap, swipe 등등
 
 ---
 
