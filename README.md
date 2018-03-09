@@ -87,11 +87,19 @@
 ---
 
 * **9th Week** :
+
   * [Subscript & Extensions & Generic] - Subscript(Array[index] 표현), Extensions(확장 키워드), Generic (어떤 타입에도 유연한 코드를 구현하기 위해 사용되는 기능)
+  
+
+* **10th Week** :
+
+  * [Handling Errors] - 에러처리 (do - catch 문)
 
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Handling Errors]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/HandlingErrors.md
 
 [Singleton Pattern]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/SingletonPattern.md
 
