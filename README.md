@@ -89,6 +89,7 @@
 * **9th Week** :
 
   * [Subscript & Extensions & Generic] - Subscript(Array[index] 표현), Extensions(확장 키워드), Generic (어떤 타입에도 유연한 코드를 구현하기 위해 사용되는 기능)
+  * [lecture "Git"(20180310)] - Git을 활용하여 팀으로 협업할 수 있도록 기본적인 기능들과 개념 정리
   
 ---  
 
@@ -99,6 +100,8 @@
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[lecture "Git"(20180310)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Git_%ED%8A%B9%EA%B0%95_20180310.md
 
 [UIGestureRecognizer]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/UIGestureRecognizer.md
 
