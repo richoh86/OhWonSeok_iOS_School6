@@ -39,3 +39,10 @@
 - inputfile 추가 (왼쪽 상단 + 버튼 사용)
 $(SRCROOT)/Carthage/Build/iOS/Alamofire.framework
 ~~~
+
+**참고 이미지**
+<p align="center"><img width="200" height="200" src="/Img/carthage1.png"><img width="200" height="200" src="/Img/carthage2.png"></p>
+
+
+
+
