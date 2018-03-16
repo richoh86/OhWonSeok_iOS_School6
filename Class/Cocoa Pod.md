@@ -41,7 +41,7 @@ $(SRCROOT)/Carthage/Build/iOS/Alamofire.framework
 ~~~
 
 **참고 이미지**
-<p align="center"><img width="200" height="200" src="/Img/carthage1.png"><img width="200" height="200" src="/Img/carthage2.png"></p>
+<p align="center"><img width="300" height="200" src="/Img/carthage1.png"><img width="300" height="200" src="/Img/carthage2.png"></p>
 
 
 
