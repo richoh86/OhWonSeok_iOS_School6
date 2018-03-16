@@ -33,7 +33,7 @@ var reversedNames = names.sorted(by: backward)
 
 > closure 의 표현 방식은 아래 이미지와 같습니다
 
-<p align="center"><img width="200" height="200" src="/Img/closure1.png"></p>
+<p align="center"><img width="400" height="300" src="/Img/closure1.png"></p>
 
 > 위에서 설명했었던 코드에서 backward 함수를 다음과 같이 표현합니다
 

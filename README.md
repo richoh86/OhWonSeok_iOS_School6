@@ -96,6 +96,7 @@
 * **10th Week** :
 
   * [Handling Errors] - 에러처리 (do - catch 문)
+  * [Closure] - 함수 블럭 자체이며, 블럭 밖의 코드 내에서도 사용 될 수 있는 Swift 문법
   
 * **11th Week** :
 
@@ -104,6 +105,8 @@
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Closure]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Closure.md
 
 [CocoaPod & Carthage]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Cocoa%20Pod.md 
 
