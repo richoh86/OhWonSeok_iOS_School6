@@ -68,7 +68,7 @@ reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } )
 > $0 and $1 refer to the closure’s first and second String arguments.
 
 ~~~
-eversedNames = names.sorted(by: { $0 > $1 } )
+reversedNames = names.sorted(by: { $0 > $1 } )
 ~~~
 
 ### Operator Methods
@@ -83,7 +83,7 @@ reversedNames = names.sorted(by: >)
 
 ## Trailing Closures
 
-> Trailing Closure는 인수로 함수가 들어오는 경우를 말하며 문법은 아래와 같습니다
+> Trailing Closure는 함수 "()" 끝난 뒤 지점에서 함수를 선언하는 closure 문법입니다 
 
 ~~~
 func someFunctionThatTakesAClosure(closure: () -> Void) {
@@ -103,9 +103,31 @@ someFunctionThatTakesAClosure() {
 }
 ~~~
 
+> inline closure 예제 closure를 Trailing으로 변경하면 다음과 같습니다
+
+~~~
+reversedNames = names.sorted(by: { $0 > $1 } ) : inline closure
+reversedNames = names.sorted() { $0 > $1 } : trailing closure
+~~~
+
 ## Capturing Values
 
+>    
+
+~~~
+func makeIncrementer(forIncrement amount: Int) -> () -> Int {
+    var runningTotal = 0
+    func incrementer() -> Int {
+        runningTotal += amount
+        return runningTotal
+    }
+    return incrementer
+}
+~~~
+
 ## Closures Are Reference Types
+
+
 
 ## Escaping Closures
 
