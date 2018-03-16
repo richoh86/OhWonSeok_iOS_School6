@@ -96,10 +96,16 @@
 * **10th Week** :
 
   * [Handling Errors] - 에러처리 (do - catch 문)
+  
+* **11th Week** :
+
+  * [CocoaPod & Carthage] - 오픈소스(frameWork) 사용 방법 정리. 
 
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[CocoaPod & Carthage]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Cocoa%20Pod.md 
 
 [lecture "Git"(20180310)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/Git_%ED%8A%B9%EA%B0%95_20180310.md
 
