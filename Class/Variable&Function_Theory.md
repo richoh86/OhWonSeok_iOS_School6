@@ -1,4 +1,4 @@
-# 변수 & 함수
+# Variable
 
 > 코드 정리 잘 할 것 (인덴트, 변수이름, 함수이름 등)
 
@@ -148,4 +148,58 @@ b = temporaryA
 var someInt = 13
 var anotherInt = 27
 swapTwoInts(&someInt, &anotherInt)
+~~~
+
+# Method
+
+> 메소드는 크게 인스턴스 메소드 그리고 타입 메소드로 구분할 수 있다
+
+## Instance Methods
+
+> 인스턴스 메소드는 상위 클래스의 인스턴스를 생성해서 접근할 수 있는 메소드
+
+~~~
+class Counter {
+    var count = 0
+    func increment() {
+        count += 1
+    }
+    func increment(by amount: Int) {
+        count += amount
+    }
+    func reset() {
+        count = 0
+    }
+}
+~~~
+
+- increment() increments the counter by 1.
+
+- increment(by: Int) increments the counter by a specified integer amount.
+
+- reset() resets the counter to zero.
+
+~~~
+let counter = Counter()
+// the initial counter value is 0
+counter.increment()
+// the counter's value is now 1
+counter.increment(by: 5)
+// the counter's value is now 6
+counter.reset()
+// the counter's value is now 0
+~~~
+
+## Type Methods
+
+> 타입 메소드는 키워드 static, class 가 붙어야 하고, 호출시 인스턴스를 생성하지 않고
+> 바로 "클래스 이름." 으로 호출이 가능하다
+
+~~~
+class SomeClass {
+    class func someTypeMethod() {
+        // type method implementation goes here
+    }
+}
+SomeClass.someTypeMethod()
 ~~~
