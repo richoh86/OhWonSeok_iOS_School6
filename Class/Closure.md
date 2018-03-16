@@ -212,11 +212,13 @@ print(instance.x)
 
 > @escaping closure 함수에서 넣어주면 함수 밖에서 선언된 Array completionHandler에 넣어 줄 수 있습니다
 > 즉, @escaping 키워드를 입력하면 함수 밖으로 closure 에서 선언되거나 연산된 값을 내보낼 수 있습니다
+
 > @escaping 키워드가 없는 closure는 기본적으로 @noescaping 키워드가 암묵적으로 들어간 것입니다 (default)
 
 ## Autoclosures
 
 > closure 파라미터에 대입할 내용을 일반 함수 파라미터처럼 입력
+
 > 매개변수도 없고 반환값도 없어야 합니다
 
 ~~~
