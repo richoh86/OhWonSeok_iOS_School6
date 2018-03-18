@@ -1,8 +1,5 @@
 # Closure
 
-- Inline Closure: closure 함수에 받는 1개 이상의 매개변수가 단순 데이터 타입인 경우
-- Trailing Closure: closure의 인수에 다시 함수가 들어가는 경우
-
 ## Definition
 
 > Closures are self-contained blocks of functionality that can be passed around and used in your code
