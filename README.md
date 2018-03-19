@@ -82,6 +82,7 @@
 
   * [Property List] - 심플한 “파일” 저장 방법 중 하나
   * [Automatic Reference Counting] - ownerShip 정책에 의해 객체의 해제 여부를 결정
+  * [AutoLayOut] - 모든 뷰의 사이즈와 위치를 설정해둔 제약사항을 통해서 계산하여 각 디바이스에 맞게 UserInterface를 보여줄 수 있는 기능을 제공
   * [UIGestureRecognizer] - 사용자의 입력을 전달받을 수 있는 방법을 제공 ex) tap, swipe 등등
 
 ---
@@ -103,6 +104,8 @@
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[AutoLayOut]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/AutoLayOut.md
 
 [Collection View]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/CollectionView.md
 
