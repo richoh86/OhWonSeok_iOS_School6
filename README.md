@@ -90,7 +90,7 @@
 
   * [Subscript & Extensions & Generic] - Subscript(Array[index] 표현), Extensions(확장 키워드), Generic (어떤 타입에도 유연한 코드를 구현하기 위해 사용되는 기능)
   * [Collection View] - 데이터 항목의 정렬된 컬렉션을 관리하고 사용자 정의 레이아웃을 사용하여 데이터 항목을 제공하는 객체
-  * [lecture "Git"(20180310)] - Git을 활용하여 팀으로 협업할 수 있도록 기본적인 기능들과 개념 정리
+  * [Lecture "Git"(20180310)] - Git을 활용하여 팀으로 협업할 수 있도록 기본적인 기능들과 개념 정리
   
 ---  
 
