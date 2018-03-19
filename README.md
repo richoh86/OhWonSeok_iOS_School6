@@ -97,10 +97,7 @@
 
   * [Handling Errors] - 에러처리 (do - catch 문)
   * [Closure] - 함수 블럭 자체이며, 블럭 밖의 코드 내에서도 사용 될 수 있는 Swift 문법
-  
-* **11th Week** :
-
-  * [CocoaPod & Carthage] - 오픈소스(frameWork) 사용 방법 정리. 
+  * [CocoaPod & Carthage] - 오픈소스(frameWork) 사용 방법 정리
 
 > 참고사항
 
