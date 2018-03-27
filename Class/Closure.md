@@ -1,8 +1,4 @@
-```javascript
-if (isAwesome){
-  return true
-}
-```
+
 # Closure
 
 ## Definition
@@ -18,6 +14,11 @@ if (isAwesome){
 
 ~~~
 let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+```javascript
+if (isAwesome){
+  return true
+}
+```
 ~~~
 
 > backward 라는 function을 sorted(by: $), $에 넣어주고 실행이 가능합니다
