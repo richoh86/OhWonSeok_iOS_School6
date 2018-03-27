@@ -36,7 +36,7 @@ var reversedNames = names.sorted(by: backward)
 
 > 위에서 설명했었던 코드에서 backward 함수를 다음과 같이 표현합니다
 
-~~~
+~~~swift
 reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
     return s1 > s2
 })
@@ -46,7 +46,7 @@ reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
 
 > 여기서 sorted()라는 메소드가 (String, String) -> Bool 타입의 함수이기 때문에 추론이 가능하기 때문에, 괄호와 -> 경우는 생략이 가능합니다 
 
-~~~
+~~~swift
 reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )
 ~~~
 
@@ -55,7 +55,7 @@ reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )
 > sorted(by:) 함수 타입 같은 경우 명확하게 Bool 값을 반환해야 합니다 
 > s1 > s2 로직을 보더라도 반드시 Bool 값을 return 해야 하기 때문에 return 키워드는 생략이 가능합니다
 
-~~~
+~~~swift
 reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } )
 ~~~
 
@@ -66,7 +66,7 @@ reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } )
 
 > $0 and $1 refer to the closure’s first and second String arguments.
 
-~~~
+~~~swift
 reversedNames = names.sorted(by: { $0 > $1 } )
 ~~~
 
@@ -76,15 +76,15 @@ reversedNames = names.sorted(by: { $0 > $1 } )
 > 것은 만약 String 타입의 데이터를 비교한다는 전제가 있다면 2개의 인수를 비교하는 것이기 때문에 operator만
 > 입력하더라도 swift가 추론이 가능합니다 
 
-~~~
+~~~swift
 reversedNames = names.sorted(by: >)
-~~~
+~~~swift
 
 ## Trailing Closures
 
 > Trailing Closure는 함수 "()" 끝난 뒤 지점에서 함수를 선언하는 closure 문법입니다 
 
-~~~
+~~~swift
 func someFunctionThatTakesAClosure(closure: () -> Void) {
     // function body goes here
 }
@@ -102,7 +102,7 @@ someFunctionThatTakesAClosure() {
 
 > inline closure 예제 closure를 Trailing으로 변경하면 다음과 같습니다
 
-~~~
+~~~swift
 reversedNames = names.sorted(by: { $0 > $1 } ) : inline closure
 reversedNames = names.sorted() { $0 > $1 } : trailing closure
 ~~~
@@ -113,7 +113,7 @@ reversedNames = names.sorted() { $0 > $1 } : trailing closure
 
 - 결과 값 : strings = ["OneSix", "FiveEight", "FiveOneZero"]
 
-~~~
+~~~swift
 	let digitNames = [
         0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",
         5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
@@ -138,7 +138,7 @@ reversedNames = names.sorted() { $0 > $1 } : trailing closure
 > 때문에 makeIncrementer 함수가 호출되고 난 뒤 다시 호출하면 runningTotal과 amount값을 그전에 호출했을 때
 > 구현된 로직에 의해 연산된 값으로 저장되어 있기 때문에 capture 된 값으로 한번 더 연산이 되어 값이 반환됩니다   
 
-~~~
+~~~swift
 func makeIncrementer(forIncrement amount: Int) -> () -> Int {
     var runningTotal = 0
     func incrementer() -> Int {
@@ -152,7 +152,7 @@ func makeIncrementer(forIncrement amount: Int) -> () -> Int {
 > 0에서 숫자 10만큼 증가시키기 위해서 파라미터로 10을 넣어 인스턴스를 생성한 후
 > incrementByTen()을 3회 호출시 반환 값이 reference capture에 의해 10씩 증가한다는 것을 알 수 있습니다
 
-~~~
+~~~swift
 let incrementByTen = makeIncrementer(forIncrement: 10)
 
 incrementByTen()
@@ -169,7 +169,7 @@ incrementByTen()
 
 > incrementByTen은 closure를 상수로 선택한 것이며 closure 내용 자체를 의미하는 것은 아닙니다
 
-~~~
+~~~swift
 let alsoIncrementByTen = incrementByTen
 alsoIncrementByTen()
 // returns a value of 40
@@ -180,7 +180,7 @@ alsoIncrementByTen()
 
 ## Escaping Closures
 
-~~~
+~~~swift
 var completionHandlers: [() -> Void] = []
 func someFunctionWithEscapingClosure(completionHandler: @escaping () -> Void) {
     completionHandlers.append(completionHandler)
@@ -220,7 +220,7 @@ print(instance.x)
 
 > 매개변수도 없고 반환값도 없어야 합니다
 
-~~~
+~~~swift
 var value2 = 10
 func autoclosure(_ arg1: String, _ arg2: @autoclosure () -> ()) { 
   print(arg1)
@@ -234,7 +234,7 @@ autoclosure("arg1", value2 += 10)
 
 > Autoclosure 파라미터에 일반적 클로져 형태는 사용이 불가능합니다
 
-~~~
+~~~swift
 autoclosure("arg1") {
   print("Compile Error")
 }
