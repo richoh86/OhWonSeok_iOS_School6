@@ -12,14 +12,10 @@
 
 > 클로저는 데이터를 정렬하는 메소드로 활용이 가능합니다
 
-~~~
+```swift
 let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
-```javascript
-if (isAwesome){
-  return true
-}
+
 ```
-~~~
 
 > backward 라는 function을 sorted(by: $), $에 넣어주고 실행이 가능합니다
 > 알파벳 정렬은 E,D,C,B,A 순으로 s1 > s2 의 로직으로 정렬했기 때문에 아래 배열에는 다음과 같은 순서로 저장됩니다
