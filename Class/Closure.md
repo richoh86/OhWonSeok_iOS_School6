@@ -22,7 +22,7 @@ let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
 
  * reversedNames = ["Ewa", "Daniella", "Chris", "Barry", "Alex"]
 
-~~~
+~~~swift
 func backward(_ s1: String, _ s2: String) -> Bool {
     return s1 > s2
 }
