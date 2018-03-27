@@ -1,3 +1,8 @@
+```javascript
+if (isAwesome){
+  return true
+}
+```
 # Closure
 
 ## Definition
@@ -238,3 +243,4 @@ autoclosure("arg1") {
 }
 autoclosure("arg1", myFunction)   // error
 ~~~
+
