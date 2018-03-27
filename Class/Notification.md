@@ -13,13 +13,13 @@
 
 - Initializing : 초기화
 
-~~~
+~~~swift
 open class var `default`: NotificationCenter { get }
 ~~~
 
 - Add Observer : 옵져버 등록 함수
  
-~~~ 
+~~~swift
 open func addObserver(_ observer: Any,   selector aSelector: Selector,  
 name aName: NSNotification.Name?,   object anObject: Any?)
 
@@ -32,7 +32,7 @@ object anObject: Any?,
 
 - Post Notification: Post 함수를 통해 옵저버 함수를 등록한 곳에 Notification 주는 코드
 
-~~~
+~~~swift
 open func post(name aName: NSNotification.Name,  
 userInfo aUserInfo: [AnyHashable : Any]? = nil)
 Remove Observer
@@ -40,13 +40,13 @@ Remove Observer
 
 - Remove Observer : 등록한 옵져버 함수를 삭제한다
 
-~~~
+~~~swift
 open func removeObserver(_ observer: Any)
 ~~~
 
 ## System Notification
 
-~~~
+```swift
 Observer
 func observerNoti(noti:Notification){
 }
@@ -54,7 +54,7 @@ func trakingPost(noti:Notification)
 {
 //noti 내용
 }
-~~~
+```
 
 > Poster
 

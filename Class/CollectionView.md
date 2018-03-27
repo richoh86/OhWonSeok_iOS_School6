@@ -40,7 +40,7 @@
 
 ## Example Code
 
-~~~
+~~~swift
 //
 //  ViewController.swift
 //  UICollectionViewClass

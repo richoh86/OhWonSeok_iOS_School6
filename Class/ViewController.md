@@ -16,7 +16,7 @@
 
  1. init
  
- ~~~
+ ~~~swift
  let nextVC = NextViewController()
  
  nextVC.view.backgroundColor = UIColor.orange
@@ -27,7 +27,7 @@
  
  2. xib (컨트롤러 이름과 xib 이름이 다를 경우 파라미터 입력)
  
- ~~~
+ ~~~swift
  let nextVC = NextViewController(nibName: "NextViewController", bundle: nil)
  
  nextVC.view.backgroundColor = UIColor.orange
@@ -38,7 +38,7 @@
      
  3. storyboard를 통해서 인스턴스 생성
  
- ~~~       
+ ~~~  swift     
  let storyboard = UIStoryboard(name: "Main", bundle: nil)
  
  let nextVC: NextViewController 
@@ -59,7 +59,7 @@
  2. Animation - transition
  > 화면전환시 애니메이션 스타일을 4가지 옵션 중에 선택할 수 있다
  
- ~~~
+ ~~~swift
  open var modalTransitionStyle: UIModalTransitionStyle
  
  public enum UIModalTransitionStyle : Int {

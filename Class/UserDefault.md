@@ -18,7 +18,7 @@
 
 ## Function & Property
 
-~~~
+~~~swift
 open class var standard: UserDefaults { get }
 
 //데이터 불러오기
@@ -35,7 +35,7 @@ open func removeObject(forKey defaultName: String)
 
 ## Example
 
-~~~
+~~~swift
 //*key값은 통일 시켜야 한다. //데이터 저장
 
 UserDefaults.standard.set("joo", forKey: "userID") //데이터 불러오기

@@ -19,13 +19,13 @@
 ~~~
 
 ### 기본 구조 
-~~~
+~~~swift
 class SomeClass {// class definition goes here}
 
 struct SomeStructure {// structure definition goes here}
 ~~~
 ### 인스턴스 접근 예제
-~~~
+~~~swift
 클래스 VideoMode 에서 Struct Resolution의 인스턴스를 만들어서 활용할 수 있다 
 
 (단, Struct 에서는 Class를 활용할 수 없다)
@@ -47,7 +47,7 @@ struct SomeStructure {// structure definition goes here}
 
 ~~~
 ### 기본 Initializer 형태
-~~~
+~~~swift
 init() {
     // perform some initialization here
 }
@@ -60,7 +60,7 @@ init() {
 > 아래 예제에서는 fahrenheit 값으로 parameter를 받아서 Celcius 값으로 변환해주는 Initializer와
 > kelvin 이라는 값으로 parameter를 받아서 Celcius 값으로 변환해주는 Initializer 2개가 customize 된 것으로 볼 수 있다
 
-~~~
+~~~swift
 struct Celsius {
     var temperatureInCelsius: Double
     init(fromFahrenheit fahrenheit: Double) {

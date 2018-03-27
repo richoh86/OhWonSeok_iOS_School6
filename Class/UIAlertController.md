@@ -8,7 +8,7 @@
 
 ## Code
 
-~~~
+~~~swift
 let alert = UIAlertController(title: "My Alert", message: @"This is an alert.", preferredStyle: .alert)
  
 alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .`default`, handler: { _ in 
@@ -29,7 +29,7 @@ self.present(alert, animated: true, completion: nil)
 
 > 배팅 금액 확인 메세지
 
-~~~
+~~~swift
 let alertVC = UIAlertController(title: "최소 배팅 금액 $5", message: "배팅하세요!", preferredStyle: .alert)
 let action1 = UIAlertAction(title: "확인", style: .default, handler: { (action) in })
 alertVC.addAction(action1)

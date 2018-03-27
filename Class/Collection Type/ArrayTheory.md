@@ -31,7 +31,7 @@ var list:[String] = [“원석”, “앨런 ”] ✌️
 
 ## Array 메소드
 
-~~~
+~~~swift
 배열 선언
 var someInt2:[Int] = [1,2,3,4]
 
@@ -54,7 +54,7 @@ someInt2.append(contentsOf: [5, 6])
 
 ## Array 예제
 
-~~~
+~~~swift
 func arrayTest()
 {
     var textR: String = ""

@@ -13,7 +13,7 @@
 
 > 열거형의 기본적인 형태 
 
-~~~
+~~~swift
 enum <열거형 이름> {
 	case <열거 항목1> 
 	case <열거 항목2> 
@@ -25,7 +25,7 @@ enum <열거형 이름> {
 
 > 열거형 예제1
 
-~~~
+~~~swift
 enum CompassPoint {
     case north
     case south
@@ -36,7 +36,7 @@ enum CompassPoint {
 
 > 열거형 예제2
 
-~~~
+~~~swift
 enum Planet {
    case mercury, venus, earth,
 	mars, jupiter, saturn,
@@ -46,14 +46,14 @@ enum Planet {
 
 > 열거형 값 지정 (예제1)
 
-~~~
+~~~swift
 var directionToHead = CompassPoint.west
 directionToHead = .north
 ~~~
 
 > 열거형 예제1을 switch 문으로 변형시켜 구현하는 경우
 
-~~~
+~~~swift
 switch directionToHead {
     case .north:
         print("Lots of planets have a north")
@@ -70,7 +70,7 @@ print("Where the skies are blue")
 
 > 열거형 예제3
 
-~~~
+~~~swift
 enum Barcode {
     case upc(Int, Int, Int, Int)
     case qrCode(String)
@@ -79,14 +79,14 @@ enum Barcode {
 
 > 열거형 값 지정(예제3)
 
-~~~
+~~~swift
 var productBarcode = Barcode.upc(8, 85909, 51226, 3)
      productBarcode = .qrCode("ABCDEFGHIJKLMNOP")
 ~~~
 
 > 얼거형 값 가져오기(예제3)
 
-~~~
+~~~swift
  switch productBarcode {
      case .upc(let numberSystem, let manufacturer, let product, let check):
          print("UPC: \(numberSystem), \(manufacturer), \(product), \(check).”)
@@ -97,7 +97,7 @@ var productBarcode = Barcode.upc(8, 85909, 51226, 3)
 
 ### Raw Values
 
-~~~
+~~~swift
 enum ASCIIControlCharacter: Character {
              case tab = "\t"
              case lineFeed = "\n"
@@ -114,7 +114,7 @@ case mercury=1, venus, earth, mars, jupiter, saturn, uranus, neptune
 
 > .rawValue 프로퍼티를 통해 원시값을 가져올수 있다.
 
-~~~
+~~~swift
 let earthsOrder = Planet.earth.rawValue
        // earthsOrder is 3
        let sunsetDirection = CompassPoint.west.rawValue
@@ -127,7 +127,7 @@ let earthsOrder = Planet.earth.rawValue
 
 -  초기화를 통해 만든 인스턴스는 옵션널 변수로 만들어 진다.
 
-~~~
+~~~swift
 enum Planet: Int{
 case mercury=1, venus, earth, mars, jupiter, saturn, uranus, neptune
             }
@@ -138,7 +138,7 @@ case mercury=1, venus, earth, mars, jupiter, saturn, uranus, neptune
 
 > 열거형 내부에는 함수도 선언이 가능하며 얼거형을 중첩해서 사용도 가능하다
 
-~~~
+~~~swift
 enum Device {	case iPad, iPhone, AppleTV, AppleWatch	func introduced() -> String {	switch self {		case .AppleTV:		return "\(self) was introduced 2006"		case .iPhone:		return "\(self) was introduced 2007"		case .iPad:		return "\(self) was introduced 2010"		case .AppleWatch:		return "\(self) was introduced 2014"		}	}}print (Device.iPhone.introduced())
 ~~~
 
@@ -146,7 +146,7 @@ enum Device {	case iPad, iPhone, AppleTV, AppleWatch	func introduced() -> Stri
 
 > 열거형 내부에서 연산프로퍼티도 사용가능하다
 
-~~~
+~~~swift
 enum Device {	case iPad, iPhone		var year: Int {		switch self {		case .iPhone:
 		return 2007		
 		case .iPad:		return 2010		}

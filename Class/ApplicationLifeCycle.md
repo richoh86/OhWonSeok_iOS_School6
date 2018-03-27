@@ -15,7 +15,7 @@ iOS FrameWorks는 MVC 와 Delegation 패턴에 의존해서 실행되며, MVC의
 
 ## The Main Function
 
-~~~
+~~~swift
 C 기반의 앱이 시작 될 때 main function이 호출되는데 이는 iOS 앱에서도 마찬가지이다
 단, Xcode에서는 기본 프로젝트를 생성할 때 아래 구현된 main function이 포함된다
 
@@ -63,7 +63,7 @@ storyboard file로 부터 로딩시키고 개발자의 커스텀 코드를 호�
  * **Suspended**: 백그라운드에 있는 상태이긴 하지만, 코드를 실행하지는 않는다 그리고 메모리는 적재된 상태지만 마찬가지로 코드를 실행하지는 않는다
  
  
-~~~
+~~~swift
 아래 생명주기 함수들은 App 작동 시점에 따라서 호출되며, 해당 함수들은 오버라이드해서 활용가능하다
 
 application:willFinishLaunchingWithOptions

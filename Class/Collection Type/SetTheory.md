@@ -15,7 +15,7 @@
 
 * Set은 Array와 다르게 축약 문법이 없다.
 
-~~~
+~~~swift
 var someInts:Set<Int> = Set<Int>()
 
 var someInts:Set<Int> = [1,2,3,4]
@@ -30,7 +30,7 @@ var someStrings:Set = [“joo”,”young”]
 
 ## Set 예제
 
-~~~
+~~~swift
 var oddDigits : Set = [ 1, 3, 5, 7, 9 ]
 let evenDigits : Set = [2, 4, 6, 8]
 let primeDigits : Set = [2, 3, 5, 7]

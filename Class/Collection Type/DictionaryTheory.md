@@ -15,7 +15,7 @@
 
 
 ## Dictionary 예제
-~~~
+~~~swift
 var someInts:[String:Int] = [String:Int]()
 
   var someInts:Dictionary<String,Int> = [:]
@@ -30,7 +30,7 @@ var someInts:[String:Int] = [String:Int]()
 
 > Any에서 내가 원하는 타입으로 캐스팅하는 경우를 다운 캐스팅 이라고 하고, as 키워드를 사용해서 캐스팅합니다 
 
-~~~
+~~~swift
 var person:[String:Any] = ["name":"joo", "age":20, "isSingle":true]let name1 = person["name"] //type은 Anylet name2 = person["name"] as! String //type은 String
 ~~~
 

@@ -50,7 +50,7 @@ TableView의 Style은 Plain 과 Grouped으로 2가지가 있다
 ---
 > DataSource 함수
 
-~~~
+~~~swift
 public protocol UITableViewDataSource : NSObjectProtocol {
   @available(iOS 2.0, *)
      public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -85,7 +85,7 @@ public protocol UITableViewDataSource : NSObjectProtocol {
 
 > Delegate 함수
 
-~~~
+~~~swift
 public protocol UITableViewDelegate : NSObjectProtocol, UIScrollViewDelegate {
      // Display customization
      @available(iOS 2.0, *)
@@ -113,7 +113,7 @@ public protocol UITableViewDelegate : NSObjectProtocol, UIScrollViewDelegate {
 
 > Index Path Extension
 
-~~~
+~~~swift
 extension IndexPath {
     /// Initialize for use with `UITableView` or `UICollectionVie
     public init(row: Int, section: Int)
@@ -142,7 +142,7 @@ extension IndexPath {
 
  - TableView의 section과 row수를 설정해 줄 수 있는 DataSource 함수를 선언하고 값을 설정한다
 
-~~~
+~~~swift
 func tableView(_ tableView: UITableView,
 numberOfRowsInSection section: Int) -> Int {
 //섹션별 row의 갯수 리턴 코드 구현
@@ -158,7 +158,7 @@ indexPath: IndexPath) -> UITableViewCell {
 
 - cell의 text에 indexPath의 row 숫자를 cell별로 넣어준다
 
-~~~
+~~~swift
 func tableView(_ tableView: UITableView,  
 cellForRowAt indexPath: IndexPath) -> UITableViewCell  {
 
@@ -196,7 +196,7 @@ return cell }
 
 > Cell에는 Accessory View 라는 것도 존재하며 아래 Accessory 들을 넣어 줄 수 있다
 
-~~~
+~~~swift
 typedef NS_ENUM(NSInteger,
 UITableViewCellAccessoryType) {
     UITableViewCellAccessoryNone,

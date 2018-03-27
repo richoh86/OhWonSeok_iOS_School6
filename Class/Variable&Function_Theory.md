@@ -20,7 +20,7 @@
 
 ## 변수 타입 이론 정리
 
-~~~
+~~~swift
 참조형은 클래스. Xxx 형식인데 주소값을 클래스 메모리에 저장해두고 
 다른 저장공간에서 참조 내용을 불러오는 구조다
 
@@ -72,7 +72,7 @@ Swift4에서 추가된 내용이기 때문에 꼭 알아둘 것!
 ~~~
 ###  subString 예제
 
-~~~
+~~~swift
 let sampleText = "<<<Hello>>>"
 let startIndex = sampleText.index(sampleText.startIndex, offsetBy: 3)
 let endIndex = sampleText.index(sampleText.endIndex, offsetBy: -4)
@@ -87,7 +87,7 @@ print(resultStr)
 타입의 조합!
 ~~~ 
 #### 튜플 예제
-~~~
+~~~swift
 (Int, Int) // (String, Int, String)
 
 var sampleTuple: (Int, String, Int) = (3, "oh",4)
@@ -133,7 +133,7 @@ String을 int 로 캐스팅 할 수 있다
 ### in-out Parameter Keyword
 
 #### 해당 기능으로 매개변수 a 와 b 의 값을 서로 바꿀 수 있다 (변경이 가능)
-~~~
+~~~swift
 Func swapTwoInts ( _ a: inout Int, _ b: inout Int) {
 
 let temporaryA = a
@@ -144,7 +144,7 @@ b = temporaryA
 ~~~
 #### 함수 사용시 인수는 변수를 선언하여 값을 할당해서 사용해야한다
 
-~~~
+~~~swift
 var someInt = 13
 var anotherInt = 27
 swapTwoInts(&someInt, &anotherInt)
@@ -158,7 +158,7 @@ swapTwoInts(&someInt, &anotherInt)
 
 > 인스턴스 메소드는 상위 클래스의 인스턴스를 생성해서 접근할 수 있는 메소드
 
-~~~
+~~~swift
 class Counter {
     var count = 0
     func increment() {
@@ -179,7 +179,7 @@ class Counter {
 
 - reset() resets the counter to zero.
 
-~~~
+~~~swift
 let counter = Counter()
 // the initial counter value is 0
 counter.increment()
@@ -195,7 +195,7 @@ counter.reset()
 > 타입 메소드는 키워드 static, class 가 붙어야 하고, 호출시 인스턴스를 생성하지 않고
 > 바로 "클래스 이름." 으로 호출이 가능하다
 
-~~~
+~~~swift
 class SomeClass {
     class func someTypeMethod() {
         // type method implementation goes here

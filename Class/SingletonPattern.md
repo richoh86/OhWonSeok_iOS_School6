@@ -12,7 +12,7 @@
 > 아래 코드에서는 싱글톤 패턴으로 만든 sharedInstance 라는 단 하나의 인스턴스를 생성한 것이다
 > 따라서, 현재 구현 중인 앱 내에서만 활용이 가능하다
 
-~~~
+~~~swift
 class SingletonClass {
     // MARK: Shared Instance
     static var sharedInstance:SingletonClass = SingletonClass()
@@ -27,7 +27,7 @@ class SingletonClass {
 
 > 그 밖에 시스템 자체적으로 가지고 있는 싱글톤 객체들도 있다
 
-~~~
+~~~swift
 //스크린 정보를 가지고 있는 객체
 let screen = UIScreen.main 
 

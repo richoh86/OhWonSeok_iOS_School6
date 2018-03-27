@@ -7,7 +7,7 @@
 *  프로토콜을 통해서 공통적인 작업을 강제할 수 있으며, 해당 프로토콜을 채택한 사람이 구현한 메소드 정보도 확인 가능
 
 ### Protocol 문법
-~~~
+~~~swift
 protocol Runable {
 var regCount:Int {get set}
 func run() 
@@ -20,7 +20,7 @@ var regCount:Int = 0 func run(){}
 
 ### Protocol 채택
 
-~~~
+~~~swift
 protocol Runable {
 var regCount:Int {get set}
 func run() 
@@ -40,7 +40,7 @@ var wingCount: Int = 0 var regCount:Int = 0 func run(){}
 >프로토콜을 추상 클래스처럼 사용할수 있다.
 다음과 같은 클래스가 있고, racing 이라는 함수를 구현하려고 한다면!
 
-~~~
+~~~swift
 class Dog: Runable{ //...
  }
 
@@ -67,7 +67,7 @@ let winner:Runable = racing(animals: [Dog(),Horse()])
 
 > 선언부
 
-~~~
+~~~swift
 class CustomView: UIView {
 
 // 2. 클래스에 delegate 프로퍼티 생성 
@@ -85,7 +85,7 @@ func viewFrameChanged(newFrame:CGRect) }
 
 > 구현부
 
-~~~
+~~~swift
 // 1. CustomView Delegate 채택
 class ViewController: UIViewController, CustomViewDelegate{
    

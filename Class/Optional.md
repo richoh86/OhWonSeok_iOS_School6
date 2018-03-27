@@ -11,7 +11,7 @@ Swift의 중요한 특징은 safety이며, nil 인 변수선언을 해야할 경
 
 > 변수 선언 후에 초기화를 하지 않은 상태
 
-~~~
+~~~swift
 예시)
 class Person{
     var name:String
@@ -36,7 +36,7 @@ print(person2.name)
 
 > 파라미터 입력값이 nil 값이 아닌 경우의 if 문을 구현했기 때문에 강제로 optionalStr 값을 '!' 를 사용해서 unwrapping 해야한다 
 
-~~~
+~~~swift
 func testFuc(optionalStr:String?)
 {
     if optionalStr != nil
@@ -50,7 +50,7 @@ func testFuc(optionalStr:String?)
 
 > 선택적 해제를 뜻하며 if 문을 통해 파라미터가 nil 값이 아닌 String 이라고 증명되면 if 구문 안 statement를 실행한다 (예시1)
 
-~~~
+~~~swift
 예시1)
 func testFuc(optionalStr:String?)
 {
@@ -77,7 +77,7 @@ return false
 //조건값이 거짓일때 실행
 //종료 조건이 항상 필요 }
 
-~~~
+~~~swift
 func testFuc(optionalStr:String?)
     {
         guard let unwrapStr:String = optionalStr  else

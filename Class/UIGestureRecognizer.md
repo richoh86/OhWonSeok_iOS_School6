@@ -14,7 +14,7 @@
  
 > 아래 코드는 gesture를 view에 넣어서 #selector를 활용하여 뷰컨트롤러에 액션 함수를 구현한 것입니다 
 
-~~~
+~~~swift
 let tapGesture = UITapGestureRecognizer(target: self,
                              action: #selector(ViewController.tapAction(_:)))
 
@@ -35,7 +35,7 @@ self.view.addGestureRecognizer(tapGesture)
 - 아래 코드는 스토리보드에서 뷰컨트롤러로 UITapGestureRecognizer를 @IBOutlet으로 연결하고
 @IBAction으로 액션 함수를 만들어 준 것입니다 
 
-~~~
+~~~swift
     @IBOutlet var gesture: UITapGestureRecognizer!
     
     override func viewDidLoad() {
@@ -53,6 +53,6 @@ self.view.addGestureRecognizer(tapGesture)
 
  - 아래 코드는 가장 많이 사용하는 Delegate 메소드 입니다
 
-~~~
+~~~swift
 	func gestureRecognizer(_ gestureRecognizer:	UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {	//터치된 포인트가 inView위치에 어느 좌표에 해당되는지 표시	print("xposition", touch.location(in: touch.view).x)	//터치가 일어난 시간 반환	print("touch timeStamp”,touch.timestamp)	//연속적으로 일어난 터치의 횟수	print("touch tapCount",touch.tapCount)	return true}
 ~~~

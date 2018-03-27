@@ -8,7 +8,7 @@
 
 ### Reference counting (object-c)
 
-~~~
+~~~swift
 NSString *str1 = [[NSString alloc] init];
 NSString *str2 = [str1 retain];
 NSString *str3 = str2;
@@ -23,7 +23,7 @@ NSString *str3 = str2;
 
 >  기존에 object-c 에서는 개발자가 직접 객체를 해제하는 코드까지 구현했어야 한다
 
-~~~
+~~~swift
 - (id)init{
 retainCount = 1;  }
  - (id)retain{
@@ -40,7 +40,7 @@ return self;  }
 - 인스턴스 객체의 owner만이 해당 인스턴스에 대해서 해제에 대한 책임을 진다
 - 오너쉽을 가진 객체만 reference counting이 증가한다
 
-~~~
+~~~swift
 NSString *str1 = [[NSString alloc] init];
 NSString *str2 = [[NSString alloc] init];
 NSString *str3 = [[NSString alloc] init];
@@ -75,7 +75,7 @@ str2 = [[NSString alloc] init];
 
 > Swift에서는 기본적으로 Strong 키워드로 변수가 선언된다 (Strong 키워드를 쓰지 않더라도)
  
-~~~
+~~~swift
 var p1:Person
 var p2:Person
 
@@ -85,7 +85,7 @@ p2 = p1
 > 위 코드의 경우 p1과 p2가 모두 1개의 객체를 강하게(Strong) 참조하고 있기 때문에 둘다 소유권을 가지고 있으며,
 > 할당 될 때마다 reference count는 증가한다
 
-~~~
+~~~swift
 var p1:Person
 weak var p2:Person
 
@@ -98,7 +98,7 @@ p2 = p1
 
 > 따라서, Person 객체의 reference count는 p2가 참조만 하기 때문에 증가하지 않고 그대로 1이다
 
-~~~
+~~~swift
 weak var p2:Person
 
 p2 = Person()
@@ -112,7 +112,7 @@ p2 = Person()
 - Autorelease pool을 대신해서 자동 해제가 필요한 경우
 - view의 strong 참조 때문에
 
-~~~
+~~~swift
 Unowned : 소유권이 없는 참조임을 나타내는 지시어
 
 Optional 차이

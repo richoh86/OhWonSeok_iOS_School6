@@ -14,7 +14,7 @@
 
 > 열거형은 에러를 표현하는데 적합합니다
  
-~~~
+~~~swift
 enum VendingMachineError: Error {
     case invalidSelection
     case insufficientFunds(coinsNeeded: Int)
@@ -26,7 +26,7 @@ enum VendingMachineError: Error {
 
 > 함수의 작성중 에러가 발생할수 있는 함수에는 매개변수 뒤에 throws 키워드를 작성하여 에러가 전달될수 있는 함수를 선언 합니다
 
-~~~
+~~~swift
 //에러전달 가능성 함수
 func canThrowErrors() throws -> String
 
@@ -44,7 +44,7 @@ func cannotThrowErrors() -> String
  
  > do - catch 문을 활용해서 에러는 처리하는 코드입니다
 
-~~~
+~~~swift
  do { 
  		try expression 		
 		statements 		
@@ -57,7 +57,7 @@ func cannotThrowErrors() -> String
 
 ## Converting Errors to Optional Value 
 
-~~~
+~~~swift
 func someThrowingFunction() throws -> Int {
    // ...
 }

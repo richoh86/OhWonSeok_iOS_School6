@@ -8,7 +8,7 @@
 
 - Array[index] /Dictionary["key"] 등의 표현이 Subscript 이다
 
-~~~
+~~~swift
 subscript(index: Int) -> Int {
     get {
         // return an appropriate subscript value here
@@ -20,7 +20,7 @@ subscript(index: Int) -> Int {
 ~~~
 > 연산 프로퍼티와 같이 get/set 으로 선언 가능하며, set의 경우 default parameter로 newValue 가 제공된다
 
-~~~
+~~~swift
 subscript(index: Int) -> Int {
     // return an appropriate subscript value here
 }
@@ -29,7 +29,7 @@ subscript(index: Int) -> Int {
 
 ### Example
 
-~~~
+~~~swift
 struct TimesTable {
     let multiplier: Int
     subscript(index: Int) -> Int {
@@ -51,13 +51,13 @@ print("six times three is \(threeTimesTable[6])")
 5. Define and use new nested types
 6. Make an existing type conform to a protocol
 
-~~~
+~~~swift
 extension SomeType {
     // new functionality to add to SomeType goes here
 }
 ~~~
 
-~~~
+~~~swift
 extension SomeType: SomeProtocol, AnotherProtocol {
     // implementation of protocol requirements goes here
 }
@@ -68,7 +68,7 @@ extension SomeType: SomeProtocol, AnotherProtocol {
 
 > 아래 코드는 extension을 선언하여 구현한 연산 프로퍼티의 예제이다
 
-~~~
+~~~swift
 extension Double {
     var km: Double { return self * 1_000.0 }
     var m: Double { return self }
@@ -88,7 +88,7 @@ print("Three feet is \(threeFeet) meters")
 
 > 선언된 프로퍼티를 초기화 시키거나, 커스텀 초기화 함수를 선언하여 다른 매개변수를 활용하여 초기화를 시킬 수 있다
 
-~~~
+~~~swift
 struct Size {
     var width = 0.0, height = 0.0
 }
@@ -121,7 +121,7 @@ let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
 
 > extension을 활용하여 새로운 인스턴스 메소드나 타입 메소드를 추가할 수 있다
 
-~~~
+~~~swift
 extension Int {
     func repetitions(task: () -> Void) {
         for _ in 0..<self {
@@ -142,7 +142,7 @@ extension Int {
 
 > extension으로 추가된 인스턴스 메소드는 인스턴스 자체를 변경(수정)이 가능하다 이 때 구조체와 같이 (아래 코드의 Int 도 내부를 확인해보면 구조체로 되어있다) mutating 키워드를 사용하여 함수를 선언해야 한다
 
-~~~
+~~~swift
 extension Int {
     mutating func square() {
         self = self * self
@@ -160,7 +160,7 @@ someInt.square()
 
 **[1]** : Int type이 매개변수인 스왑 함수
 
-~~~
+~~~swift
 func swapTwoInts(_ a: inout Int, _ b: inout Int) {
     let temporaryA = a
     a = b
@@ -170,7 +170,7 @@ func swapTwoInts(_ a: inout Int, _ b: inout Int) {
 
 **[2]** : String type이 매개변수인 스왑 함수
 
-~~~
+~~~swift
 func swapTwoStrings(_ a: inout String, _ b: inout String) {
     let temporaryA = a
     a = b
@@ -180,7 +180,7 @@ func swapTwoStrings(_ a: inout String, _ b: inout String) {
 
 > **[1]**,**[2]** 와 같이 매개변수는 원하는 함수 로직 구현을 위해 타입을 변경해야 한다
 
-~~~
+~~~swift
 func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
     let temporaryA = a
     a = b

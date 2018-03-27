@@ -29,7 +29,7 @@
 
 > An abstract interface for responding to and handling events
 
-~~~
+~~~swift
 open func becomeFirstResponder() -> Bool
 open func resignFirstResponder() -> Bool
 open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
@@ -42,7 +42,7 @@ UIEvent?)
 
 > An object that manages the content for a rectangular area on the screen
 
-~~~
+~~~swift
 public init(frame: CGRect)
 open var tag: Int
 open var layer: CALayer { get }
@@ -62,7 +62,7 @@ open func layoutIfNeeded()
 
 > A view that displays one or more lines of read-only text, often used in conjunction with controls to describe their intended purpose
 
-~~~
+~~~swift
 open var text: String? // default is nil
 open var font: UIFont! // default is nil (system font 17 plain)
 open var textColor: UIColor! // default is nil (text draws black)
@@ -76,7 +76,7 @@ open var lineBreakMode: NSLineBreakMode // default is NSLineBreakByTruncatingTai
 
 > An object that displays a single image or a sequence of animated images in your interface
 
-~~~
+~~~swift
 public init(image: UIImage?)
 @available(iOS 3.0, *)
 public init(image: UIImage?, highlightedImage: UIImage?)
@@ -92,7 +92,7 @@ open var isHighlighted: Bool // default is NO
 
 > The base class for controls, which are visual elements that convey a specific action or intention in response to user interactions
 
-~~~
+~~~swift
 open var isEnabled: Bool // default is YES. if NO, ignores touch events and subclasses may draw differently
 open var isSelected: Bool // default is NO may be used by some subclasses or by application
 
@@ -104,7 +104,7 @@ open func addTarget(_ target: Any?, action: Selector, for controlEvents: UIContr
 
 > A control that executes your custom code in response to user interactions
 
-~~~
+~~~swift
 open func setTitle(_ title: String?, for state: UIControlState) // default is nil. title is assumed to be single line
 open func titleColor(for state: UIControlState) -> UIColor?
 @available(iOS 3.0, *)

@@ -13,7 +13,7 @@
 
 > lazy 키워드를 사용하며, 지연 저장된 속성은 프로퍼티가 사용되기 전까지 초기값이 계산되지 않는 특성을 가지고 있는 프로퍼티 이다
 
-~~~
+~~~swift
 class ViewController: UIViewController {//init 시점이 아닌 사용이 되는 시점에 초기화 한다.lazy var cal:Calculator = Calculator()override func viewDidLoad() {super.viewDidLoad()
  }
 cal.average(student: Student())
@@ -26,7 +26,7 @@ cal.average(student: Student())
 
 > 실제로 값을 저장하지는 않지만,get,set 키워드를 통해서 값을 간접적으로 설정하거나 받을 수 있다
 
-~~~
+~~~swift
 struct Point {
      var x = 0.0, y = 0.0
  }
@@ -56,7 +56,7 @@ var center: Point {
 
 > property 값이 설정 될 때마다 호출된다
 
-~~~
+~~~swift
 var changeValue:Int = 0{
        didSet(oldV){
           print("oldValue \(oldV)")
@@ -80,13 +80,13 @@ var changeValue:Int = 0{
 
 > static 키워드를 통해서 type property 를 설정할 수 있으며, 클래스의 경우 연산 프로퍼티의 오버라이드를 위해서는 class 키워드를 사용해야 한다
 
-~~~
+```swift
 struct AudioChannel {static let level = 10static var maxLevel = 0var currentLevel: Int = 0 {didSet {if currentLevel > AudioChannel.level{currentLevel = AudioChannel.level}
 }
 }
 }if currentLevel > AudioChannel.maxLevel{}
 AudioChannel.maxLevel = currentLevel
-~~~
+```
 
 > 위 코드에서 AudioChannel 클래스명으로 내부 static stored property를 바로 호출 가능하다
 

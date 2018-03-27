@@ -10,7 +10,7 @@
 
 **변수 선언**
 
-~~~~
+~~~~swift
 키워드 + 변수 명(Name) + 변수 타입 (Type)
 
 문법 : var vName: Any 
@@ -21,7 +21,7 @@
 ~~~~
 **변수 값 할당**
 
-~~~~
+~~~~swift
 변수 명(Name)  = 값(Value)
 
 문법 var vName: Any = 3
@@ -31,7 +31,7 @@ Any : 모든 타입
 
 ## 함수
 
-~~~~
+~~~~swift
 x : 미지수, input value, 매개변수 (parameter)
 
 x+3 :  Action
