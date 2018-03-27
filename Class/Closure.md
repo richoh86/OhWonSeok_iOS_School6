@@ -78,7 +78,7 @@ reversedNames = names.sorted(by: { $0 > $1 } )
 
 ~~~swift
 reversedNames = names.sorted(by: >)
-~~~swift
+~~~
 
 ## Trailing Closures
 
