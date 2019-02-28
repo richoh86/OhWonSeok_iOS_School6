@@ -1,6 +1,6 @@
 <p align="center"><img width="200" height="200" src="/Img/apple.png"></p>
 
-# About Me 
+# About Me. 
 
 * **Won Seok Oh**
 
