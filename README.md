@@ -15,7 +15,7 @@
 * Cell Phone: 010.4736.8047
 * E-Mail: wsoh1986@gmail.com
 
-# Theory
+# Basics
 > 이론 및 기본 예제
 
 * **1st Week** : Swift 기초 개념
@@ -101,9 +101,17 @@
   * [Closure] - 함수 블럭 자체이며, 블럭 밖의 코드 내에서도 사용 될 수 있는 Swift 문법
   * [CocoaPod & Carthage] - 오픈소스(frameWork) 사용 방법 정리
 
+# Advanced
+
+* **Design Pattern** : 디자인 패턴
+
+  * [Design Patterns on iOS using swift (1/2)] - 기본 디자인 패턴
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Design Pattern on iOS using swift (1/2)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/DesignPatterns_1.md
 
 [AutoLayOut]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/AutoLayOut.md
 
