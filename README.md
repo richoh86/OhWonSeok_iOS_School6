@@ -105,13 +105,14 @@
 
 * **Design Pattern** : 디자인 패턴
 
-  * [Design Patterns on iOS using swift (1/2)] - 기본 디자인 패턴
+  * [Design Pattern (1/2)] - 기본 디자인 패턴
 
 > 참고사항
 
 * [Xcode_shorcutkey]
 
-[Design Pattern on iOS using swift (1/2)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/DesignPatterns_1.md
+
+[Design Pattern (1/2)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/DesignPatterns_1.md
 
 [AutoLayOut]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/AutoLayOut.md
 
