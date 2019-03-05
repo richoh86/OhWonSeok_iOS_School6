@@ -11,16 +11,16 @@
 
 ![MVC_1](/Img/MVC_1.png "MVC_1")
 
-###Model
+### Model
 
 어플리케이션 데이터를 가지고 있으며 어떻게 데이터를 조작할 것인지 정의합니다
 
-###View
+### View
 
 위 모델의 시각적인 표현을 담당하는 오브젝트이며, 유저와의 상호작용을 컨트롤합니다
 (all the UIView derived objects)
 
-###Controller
+### Controller
 
 모델과 뷰의 모든 작업을 지휘하는 중재자 역할을 합니다.
 
@@ -31,13 +31,13 @@
 
 > 싱글턴 패턴은 단 하나의 주어진 클래스의 인스턴스만 존재하도록 만들어주며, 해당 인스턴스에 global acccess(접근)이 가능하도록 해줍니다.
 
-###Example
+### Example
 - UserDefaults.standard
 - UIApplication.shared
 - UIScreen.main
 - FileManager.default
 
-###What Should You Be Careful About?
+### What Should You Be Careful About?
 
 싱글턴 패턴은 과도하게 사용하면 안된다?
 
@@ -46,7 +46,7 @@
 
 가장 흔한 싱글턴 패턴의 문제는 바로 테스트에서 나타난다. 만약 상태값이 글로벌 오브젝트로 저장되어 있다면, 테스트시 순서가 문제가 될 수 있으며, 해당 싱글턴 패턴을 따라가기 어려울 수 있다. 따라서, 불필요한 싱글턴 패턴은 테스트 시 문제가 발생할 수 있다.
 
-###Custom Singleton
+### Custom Singleton
 ~~~swift
 final class LibraryAPI {
   // 1
@@ -73,7 +73,7 @@ final class LibraryAPI {
 API를 호출할 때, 직접적으로 다른 코드에서 PersistencyManager와 HTTPClient로 접근하는 것이 아니라, LibraryAPI를 통해서 호출을 하는 것입니다. 여기서 LibraryAPI의 인스턴스를 활용하면, 다른 코드에서 반복적으로
 PersistencyManager, HTTPClient 와 같은 세부적인 단위의 API들에 직접적으로 접근할 필요가 없어집니다.
 
-###SampleCode
+### SampleCode
 
 LibraryAPI.swift 파일에 subsystem 클래스의 인스턴스를 선언해서 하나의 파일에서 모든 API 호출을 관리
 
