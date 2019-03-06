@@ -108,10 +108,17 @@
   * [Design Patterns (1/2)] - 기본 디자인 패턴 part#1
   * [Design Patterns (2/2)] - 기본 디자인 패턴 part#2
 
+---
+
+* **RxSwift** : 디자인 패턴
+
+  * [Observable] - Observable & Using Traits
+
 > 참고사항
 
 * [Xcode_shorcutkey]
 
+[Observable]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/RxSwift_Observable.md 
 
 [Design Patterns (2/2)]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/DesignPatterns_2.md
 
