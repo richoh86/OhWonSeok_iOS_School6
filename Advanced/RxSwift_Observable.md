@@ -8,17 +8,17 @@
 
 > The Observable<T> class allows one or more observers to react to any events in real time and update the app UI, or otherwise process and utilize new and incoming data.
 
-### A next event
+### 1. A next event
 
 An event which “carries” the latest (or "next") data value. This is the
 way observers “receive” values.
 
-### A completed event
+### 2. A completed event
 
 his event terminates the event sequence with success. It means
 the Observable completed its life-cycle successfully and won’t emit any other events
 
-### An error event
+### 3. An error event
 
 The Observable terminates with an error and will not emit other
 events.
@@ -75,7 +75,7 @@ Disposed
 
 ## Using Traits
 
-***Singles*** will emit either a .success(value) or .error event. .success(value) is actually a combination of the .next and .completed events. This is useful for one-time processes that will either succeed and yield a value or fail
+***1. Singles*** will emit either a .success(value) or .error event. .success(value) is actually a combination of the .next and .completed events. This is useful for one-time processes that will either succeed and yield a value or fail
 
 **Usage** : 
 downloading data or loading it from disk.
@@ -132,11 +132,11 @@ example(of: "Single") {
 }
 ~~~
 
-***A Completable*** will only emit a .completed or .error event. It doesn't emit any value. You could use a completable when you only care that an operation completed successfully or failed.
+***2. A Completable*** will only emit a .completed or .error event. It doesn't emit any value. You could use a completable when you only care that an operation completed successfully or failed.
 
 **Usage** :
 file write
 
-***Maybe*** is a mashup of a Single and Completable. It can either emit
+***3. Maybe*** is a mashup of a Single and Completable. It can either emit
 a .success(value), .completed, or .error. If you need to implement an operation that could either succeed or fail, and optionally return a value on success, then Maybe is your ticket.
 
