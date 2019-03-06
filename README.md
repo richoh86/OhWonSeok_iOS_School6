@@ -110,7 +110,7 @@
 
 ---
 
-* **RxSwift** : 디자인 패턴
+* **RxSwift** : RxSwift?
 
   * [Observable] - Observable & Using Traits
   * [Subjects] - Subjects
