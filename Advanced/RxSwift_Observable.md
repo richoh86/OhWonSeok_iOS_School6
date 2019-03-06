@@ -82,53 +82,53 @@ downloading data or loading it from disk.
 
 ~~~swift
 example(of: "Single") {
-  // 1
-  let disposeBag = DisposeBag()
-// 2
-  enum FileReadError: Error {
-    case fileNotFound, unreadable, encodingFailed
-  }
-// 3
-  func loadText(from name: String) -> Single<String> {
-    // 4
-    return Single.create { single in
     // 1
-let disposable = Disposables.create()
-// 2
-guard let path = Bundle.main.path(forResource: name, ofType: "txt") else
-{
-  single(.error(FileReadError.fileNotFound))
-  return disposable
-}
-// 3
-guard let data = FileManager.default.contents(atPath: path) else {
-  single(.error(FileReadError.unreadable))
-  return disposable
-}
-// 4
-guard let contents = String(data: data, encoding: .utf8) else {
-  single(.error(FileReadError.encodingFailed))
-  return disposable
-}
-// 5
-single(.success(contents))
-return disposable
+    let disposeBag = DisposeBag()
+    // 2
+    enum FileReadError: Error {
+        case fileNotFound, unreadable, encodingFailed
     }
-} 
-
-// 1
-loadText(from: "Copyright")
-// 2
-.subscribe {
-// 3
-    switch $0 {
-    case .success(let string):
-      print(string)
-    case .error(let error):
-      print(error)
+    // 3
+    func loadText(from name: String) -> Single<String> {
+        // 4
+        return Single.create { single in
+            // 1
+            let disposable = Disposables.create()
+            // 2
+            guard let path = Bundle.main.path(forResource: name, ofType: "txt") else
+            {
+                single(.error(FileReadError.fileNotFound))
+                return disposable
+            }
+            // 3
+            guard let data = FileManager.default.contents(atPath: path) else {
+                single(.error(FileReadError.unreadable))
+                return disposable
+            }
+            // 4
+            guard let contents = String(data: data, encoding: .utf8) else {
+                single(.error(FileReadError.encodingFailed))
+                return disposable
+            }
+            // 5
+            single(.success(contents))
+            return disposable
+        }
     }
-  }
-  .disposed(by: disposeBag)
+    
+    // 1
+    loadText(from: "Copyright")
+        // 2
+        .subscribe {
+            // 3
+            switch $0 {
+            case .success(let string):
+                print(string)
+            case .error(let error):
+                print(error)
+            }
+        }
+        .disposed(by: disposeBag)
 }
 ~~~
 
