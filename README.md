@@ -113,10 +113,13 @@
 * **RxSwift** : 디자인 패턴
 
   * [Observable] - Observable & Using Traits
+  * [Subjects] - Subjects
 
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Subjects]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Subjects.md
 
 [Observable]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/RxSwift_Observable.md 
 
