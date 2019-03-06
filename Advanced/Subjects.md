@@ -210,6 +210,17 @@ example(of: "Variable") {
 }
 ~~~
 
+> There is no way to add an .error or .completed event onto a variable. Any attempts to do so will generate compiler errors.
+
+~~~swift
+// These will all generate errors
+variable.value.onError(MyError.anError)
+variable.asObservable().onError(MyError.anError)
+variable.value = MyError.anError
+variable.value.onCompleted()
+variable.asObservable().onCompleted() 
+~~~
+
 #### Printed in console
 
 ~~~
