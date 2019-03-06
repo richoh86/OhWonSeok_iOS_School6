@@ -102,6 +102,7 @@
   * [CocoaPod & Carthage] - 오픈소스(frameWork) 사용 방법 정리
 
 # Advanced
+> 고급 및 심화 이론
 
 * **Design Patterns** : 디자인 패턴
 
