@@ -116,10 +116,13 @@
 
   * [Observable] - Observable & Using Traits
   * [Subjects] - Subjects
+  * [Filtering Operators] - Filtering
 
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Filtering Operators]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/FilteringOperator.md
 
 [Subjects]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Subjects.md
 

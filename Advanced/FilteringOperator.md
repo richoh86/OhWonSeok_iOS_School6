@@ -28,11 +28,9 @@ example(of: "ignoreElements") {
 ~~~
 
 ~~~
-
 --- Example of: ignoreElements ---
 You're out!
 ~~~
-
 ___
 
 > You subscribe to the .next events, ignoring all but the 3rd .next event (found at index 2).
