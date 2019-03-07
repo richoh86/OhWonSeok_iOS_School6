@@ -268,3 +268,73 @@ ___
 2
 ~~~
 
+### Distinct operators
+
+> distinctUntilChanged only prevents contiguous duplicates. So the 2nd element is prevented because it’s the same as the 1st, but the last item, also an A, is allowed through, because it comes after a different letter (B).
+
+~~~swift
+example(of: "distinctUntilChanged") {
+  let disposeBag = DisposeBag()
+// 1
+Observable.of("A", "A", "B", "B", "A")
+// 2
+  .distinctUntilChanged()
+  .subscribe(onNext: {
+print($0) })
+  .disposed(by: disposeBag)
+}
+~~~
+
+~~~
+--- Example of: distinctUntilChanged ---
+A
+B
+A
+~~~
+
+___
+
+> you can provide your own custom comparing logic by using distinctUntilChanged(_:), where the externally unnamed parameter is a comparer.
+
+~~~swift
+example(of: "distinctUntilChanged(_:)") {
+  
+    let disposeBag = DisposeBag()
+    
+    let formatter = NumberFormatter()
+    formatter.numberStyle = .spellOut
+    
+    Observable<NSNumber>.of(10, 110, 20, 200, 210, 310)
+        .distinctUntilChanged { a, b in
+            guard let aWords = formatter.string(from: a)?.components(separatedBy: " "),
+                let bWords = formatter.string(from: b)?.components(separatedBy: " ")
+                else {
+                    return false
+            }
+            
+            var containsMatch = false
+           
+            for aWord in aWords {
+                for bWord in bWords{
+                    if aWord == bWord {
+                        containsMatch = true
+                        break
+                    }
+                }
+            }
+            
+            return containsMatch
+        }
+        .subscribe(onNext: {
+            print($0)
+        })
+        .disposed(by: disposeBag)
+}
+~~~
+
+~~~
+--- Example of: distinctUntilChanged(_:) ---
+10
+20
+200
+~~~
