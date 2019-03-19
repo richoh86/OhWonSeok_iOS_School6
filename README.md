@@ -118,9 +118,17 @@
   * [Subjects] - Subjects
   * [Filtering Operators] - Filtering
 
+---
+
+* **Initialization** : 초기화
+
+  * [Struct] - 구조체 초기화 정리
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Struct]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Initialization.md
 
 [Filtering Operators]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/FilteringOperator.md
 
