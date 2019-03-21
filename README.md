@@ -123,10 +123,13 @@
 * **Initialization** : 초기화
 
   * [Struct] - 구조체 초기화 정리
+  * [Class] - 클래스 초기화 정리
 
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Class]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/ClassInitialization.md
 
 [Struct]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Initialization.md
 
