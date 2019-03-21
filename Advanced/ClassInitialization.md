@@ -159,6 +159,12 @@ init(model: String, serialNumber: String, reusable: Bool, encasingMaterial: Stri
 
 ### The Initialization Funnel
 
+![initialization1](/Img/initializationFunnel1.png) "initialization1"
+
+![initialization2](/Img/initializationFunnel1.png) "initialization2"
+
+![initialization3](/Img/initializationFunnel1.png) "initialization3"
+
 ### Delegating Up the Funnel
 
 ~~~swift
