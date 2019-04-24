@@ -127,13 +127,13 @@
 
 * **GCD(Grand Central Dispatch)**
 
-  * [GCD] - 스레드 처리 방법 정리
+  * [GCD] - Thread를 GCD를 통해 처리
 
 > 참고사항
 
 * [Xcode_shorcutkey]
 
-[GCD]: 
+[GCD]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/GCD.md
 
 [Class]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/ClassInitialization.md
 
