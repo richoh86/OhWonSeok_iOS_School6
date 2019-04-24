@@ -7,8 +7,10 @@
 
 ## Main Queue (= Serial Queue)
 
+- Main Thread 위에서 수행
 - Serial Queue에서는 먼저 들어온 Task를 먼저 실행한 후 이후 다음 Task를 수행한다
 - main에서는 async (비동기)만 활용 가능 -> sync(동기) 사용시 dead-lock 발생
+- MainQueue에서는 UI(View)를 처리하는 목적으로 활용한다 
 
 ~~~swift
 // A Task
