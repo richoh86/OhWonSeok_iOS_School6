@@ -117,6 +117,7 @@
   * [Observable] - Observable & Using Traits
   * [Subjects] - Subjects
   * [Filtering Operators] - Filtering
+  * [Tranforming Operators] - Transforming
 
 ---
 
@@ -132,6 +133,8 @@
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+[Tranforming Operators]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Transforming.md
 
 [GCD]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/GCD.md
 
