@@ -118,6 +118,7 @@
   * [Subjects] - Subjects
   * [Filtering Operators] - Filtering
   * [Tranforming Operators] - Transforming
+  * [Combining Operators] - Combining
 
 ---
 
