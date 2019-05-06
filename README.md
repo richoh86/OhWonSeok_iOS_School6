@@ -135,6 +135,8 @@
 
 * [Xcode_shorcutkey]
 
+[Combining Operators]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Combining%20Operators.md
+
 [Tranforming Operators]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Transforming.md
 
 [GCD]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/GCD.md
