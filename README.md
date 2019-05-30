@@ -9,7 +9,7 @@
    * Master of Business Administration of Ajou University, Senior (2015 - 2019.6)
    * ZigBang, Members Management Team (2016)
    * FastCampus IOS School 6th (2018.01 - 2018.04)  
-   * CTO of Real-Estate Agency SangSaeng (2018.04 - 2019.3)
+   * Business Partner with Real-Estate Agency SangSaeng (2018.04 - 2019.3)
    
 # Contact Info
 
