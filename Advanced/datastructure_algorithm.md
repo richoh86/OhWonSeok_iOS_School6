@@ -37,20 +37,44 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 
 각각의 원소들이 자기 자신의 이전/다음 요소들을 기억하고 있기 때문에, 추가, 삭제 작업이 시간복잡도가 Big-O(1)로 해결 가능하다. (Array가 가진 단점을 해결) 
 
+### Hash Table
+
+> Dictionary Struture의 기본 구조라고 할 수 있다
+> Hash Table에 값을 넣으면, 특정 키 값에 매핑하게 되는데 Hash function에 의해서 이 키 값을 배열의 index로 계산해준다
+
 ## Algorithm
 
 ### Sorting Algorithm
 ---
 #### Bubble Sort
+
+> 모든 요소를 다 검색하고 비교해서 바꿔주는 것이며, 정렬된 (sorted) collection인 경우만 효율적인 방식이다 
+
 #### Selection Sort
+
+> 가장 작은 값을 먼저 찾아서 가장 앞에 있는 값과 바꿔주는 방식이다. 결론적으로 마지막 숫자가 가장 큰 것이 남게된다
+
 #### Insertion Sort
 
-#### Merg Sort
+시간복잡도: O(n^2)
+> 좌측에서부터 우측으로 비교해서 좌측보다 우측이 작으면 우측을 좌측으로 바꿔주는 방식이다.
+
+#### Merge Sort
+
+시간복잡도: O(nlogn)
+> Divide & Conquer => "split first" & "merge after"
+
+** 모든 요소들을 split한 상태에서 merge를 시킬 때 정렬(sort)한다 (작은것이 앞쪽으로 큰것이 뒤쪽으로)
 
 ### Tree
 ---
 
-#### Tree & Binary Tree
+#### Binary Tree
+
+> 각 노드가 0,1,2 개의 자식 노드를 가진다. 최대 2개의 자식 노드까지만 가질 수 있으며, 이것이 binary 라고 표현하는 이유다.
+
+<p align="center"><img width="400" height="240" src="/Img/binaryTree.png"></p>
+
 #### Heap & Heap Sort
 #### Priority Queue
 
