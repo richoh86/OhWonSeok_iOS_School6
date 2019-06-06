@@ -69,13 +69,36 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 ### Tree
 ---
 
-#### Binary Tree
+#### Binary Tree & Binary Search Tree
+
+***Binary Tree란?***
 
 > 각 노드가 0,1,2 개의 자식 노드를 가진다. 최대 2개의 자식 노드까지만 가질 수 있으며, 이것이 binary 라고 표현하는 이유다.
 
 <p align="center"><img width="400" height="240" src="/Img/binaryTree.png"></p>
 
+***Binary Search Tree?***
+
+- 항상 정렬(sorted)된 상태다
+- 좌측 자식 노드 값은 부모 노드 값 보다 작고
+- 우측 자식 노드 값은 부모 노드 값 보다 크다
+
+<p align="center"><img width="400" height="240" src="/Img/binarySearchTree.png"></p>
+
 #### Heap & Heap Sort
+
+***Heap 이란?***
+
+ - 완전 이진 트리의 일종으로 우선순위 큐를 위하여 만들어진 자료구조
+ - 여러 값들 중에서 최소값과 최대값을 빠르게 찾아낼 수 있도록 만들어진 자료구조 
+ - 힙 트리에서는 중복된 값을 허용
+
+1. Max heap: 부모 노드 key 값 > 자식 노드 key 값
+	- root node is highest value
+
+2. Min heap: 부모 노드 key 값 < 자식 노드 key 값
+	- root node is lowest value
+
 #### Priority Queue
 
 ### Graphs
