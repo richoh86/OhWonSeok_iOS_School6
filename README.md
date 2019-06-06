@@ -105,6 +105,12 @@
 # Advanced
 > 고급 및 심화 이론
 
+* **Data Struture & Algorithm**
+	
+  * [Data Structure & Algorithm]	- 자료구조와 알고리즘
+   
+---
+
 * **Design Patterns** : 디자인 패턴
 
   * [Design Patterns (1/2)] - 기본 디자인 패턴 part#1
@@ -131,9 +137,18 @@
 
   * [GCD] - Thread를 GCD를 통해 처리
 
+* **Big-O-Notation**
+ 
+  * [Big-O-Notation] - 시간복잡도 (Time Complextiy)
+
 > 참고사항
 
 * [Xcode_shorcutkey]
+
+
+[Big-O-Notation]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/BigONotation.md
+
+[Data Structure & Algorithm]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/datastructure_algorithm.md
 
 [Combining Operators]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Combining%20Operators.md
 
