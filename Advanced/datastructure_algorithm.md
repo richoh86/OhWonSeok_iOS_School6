@@ -102,6 +102,8 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 2. Min heap: 부모 노드 key 값 < 자식 노드 key 값
 	- root node is lowest value
 
+<p align="center"><img width="400" height="240" src="/Img/heapComplextiy.png"></p>
+
 #### Priority Queue
 
 > 우선순위에 따라서 요소를 큐에서 dequeue하는 queue의 다른 버전
