@@ -46,12 +46,15 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 
 ### Sorting Algorithm
 ---
+
 #### Bubble Sort
 
+시간복잡도: O(n^2)
 > 모든 요소를 다 검색하고 비교해서 바꿔주는 것이며, 정렬된 (sorted) collection인 경우만 효율적인 방식이다 
 
 #### Selection Sort
 
+시간복잡도: O(n^2)
 > 가장 작은 값을 먼저 찾아서 가장 앞에 있는 값과 바꿔주는 방식이다. 결론적으로 마지막 숫자가 가장 큰 것이 남게된다
 
 #### Insertion Sort
@@ -100,6 +103,12 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 	- root node is lowest value
 
 #### Priority Queue
+
+> 우선순위에 따라서 요소를 큐에서 dequeue하는 queue의 다른 버전
+
+ - 우선순위 큐는 주어진 목록에서 최소값 혹은 최대값을 식별할 때 유용하다
+ - priority order로 되어 있는 자료구조에서 값을 찾을 때 유용하다
+ - enqueue & dequeue의 시간복잡도는 Big-O(logn)
 
 ### Graphs
 ---
