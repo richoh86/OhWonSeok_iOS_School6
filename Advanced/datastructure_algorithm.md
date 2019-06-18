@@ -127,4 +127,4 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 #### LRU
 ---
 
-[Linked List Sample Code]: https://github.com/richoh86/LinkedListSample/tree/master/LinkedListPractice_20190618
+[Linked List Sample Code]: https://github.com/richoh86/LinkedListSample/blob/master/LinkedListPractice_20190618/Node.swift
