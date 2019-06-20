@@ -34,6 +34,8 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 > 요소가 들어오면 가장 위에 쌓이게 되고, 호출시 가장 마지막 요소가 먼저 호출된다.
 >> 즉, (LIFO) Last In First Out가 특징이다. 
 
+* [Stack Sample Code]
+
 ### Queue
 
 > 요소 삽입시 큐 가장 뒤에 들어가고 요소를 다시 호출시 해당 큐에 가장 처음으로 들어온 요소부터 호출된다. 
@@ -128,3 +130,5 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 ---
 
 [Linked List Sample Code]: https://github.com/richoh86/LinkedListSample/blob/master/LinkedListPractice_20190618/Node.swift
+
+[Stack Sample Code]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Project/Stack.playground/Contents.swift
