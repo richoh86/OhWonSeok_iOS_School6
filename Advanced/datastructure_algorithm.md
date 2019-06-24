@@ -50,6 +50,8 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 
 ## Tree
 
+* [Basic Tree Sample Code]
+
 #### Binary Tree & Binary Search Tree
 
 ***Binary Tree란?***
@@ -130,6 +132,8 @@ search 작업시 자료구조의 논리적 저장 순서와 물리적 저장 순
 #### KMP
 #### LRU
 ---
+
+[Basic Tree Sample Code]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/Tree.md
 
 [Linked List Sample Code]: https://github.com/richoh86/LinkedListSample/blob/master/LinkedListPractice_20190618/Node.swift
 
