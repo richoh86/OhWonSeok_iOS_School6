@@ -115,6 +115,7 @@
 
   * [Design Patterns (1/2)] - 기본 디자인 패턴 part#1
   * [Design Patterns (2/2)] - 기본 디자인 패턴 part#2
+  * [MVVM] - Model-View-View Model
 
 ---
 
@@ -145,6 +146,7 @@
 
 * [Xcode_shorcutkey]
 
+[MVVM]: 
 
 [Big-O-Notation]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/BigONotation.md
 
