@@ -146,7 +146,7 @@
 
 * [Xcode_shorcutkey]
 
-[MVVM]: 
+[MVVM]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Class/MVVM.md 
 
 [Big-O-Notation]: https://github.com/richoh86/OhWonSeok_iOS_School6/blob/master/Advanced/BigONotation.md
 

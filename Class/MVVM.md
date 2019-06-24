@@ -1,6 +1,6 @@
 # MVVM (Model-View-ViewModel)
 
-<p align="center"><img width="650" height="450" src="/Img/apple.png"></p>
+<p align="center"><img width="650" height="450" src="/Img/mvvm.png"></p>
 
 ## Model
 
