@@ -4,7 +4,7 @@
 
 ## Model
 
-	 Model holds application data. They're usaually Structs or simple Classes
+	 Model holds application data. They're usually Structs or simple Classes
 	 
 ## Views
 
