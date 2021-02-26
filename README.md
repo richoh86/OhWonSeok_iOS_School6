@@ -14,7 +14,7 @@
    
 # Contact Info
 
-* Cell Phone: 010.4736.8047
+* Cell Phone: 010.4517.1286
 * E-Mail: richohios@gmail.com
 
 # Basics
